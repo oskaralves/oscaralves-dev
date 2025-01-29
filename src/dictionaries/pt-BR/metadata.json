@@ -1,0 +1,18 @@
+{
+  "USERS": {
+    "EDIT_USER": "Editar usuário :name",
+    "NEW_USER": "Novo usuário",
+    "USER_DETAILS_NAME": "Detalhes do usuário :name",
+    "PERSONAL_DATA": "Dados pessoais",
+    "ADDRESSES": "Endereços",
+    "NOTIFICATIONS": "Notificações"
+  },
+  "MERCHANTS": {
+    "EDIT_MERCHANT": "Editar loja :name",
+    "NEW_MERCHANT": "Nova loja",
+    "MERCHANT_DETAILS_NAME": "Detalhes da loja :name",
+    "PERSONAL_DATA": "Dados pessoais",
+    "ADDRESSES": "Endereços",
+    "NOTIFICATIONS": "Notificações"
+  }
+}

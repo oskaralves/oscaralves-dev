@@ -1,0 +1,30 @@
+{
+  "FRONT_END": {
+    "TITLE": "Front end",
+    "DESCRIPTION": "Creation of dynamic, accessible, and responsive user interfaces, focusing on performance, efficient maintenance, and an intuitive user experience."
+  },
+  "BACK_END": {
+    "TITLE": "Back end",
+    "DESCRIPTION": "Development of robust, scalable, and secure systems, ensuring efficiency, modularity, and seamless integration between services and data."
+  },
+  "MOBILE": {
+    "TITLE": "Mobile",
+    "DESCRIPTION": "Development of modern and high-performance mobile applications using leading technologies that enable the creation of native and responsive experiences for hybrid projects, ensuring flexibility and quality in cross-platform solutions."
+  },
+  "TEST": {
+    "TITLE": "Testing",
+    "DESCRIPTION": "Experience in creating and implementing automated tests to ensure code quality and reliability. Knowledge of tools and libraries for unit, integration, and end-to-end testing, promoting stability and confidence in the development cycle."
+  },
+  "DATABASE": {
+    "TITLE": "Database",
+    "DESCRIPTION": "Advanced knowledge in designing, managing, and optimizing relational and non-relational databases, ensuring performance, security, and scalability in data storage and retrieval."
+  },
+  "DEVOPS": {
+    "TITLE": "DevOps",
+    "DESCRIPTION": "Implementation of practices and tools that connect development and operations, promoting automation, continuous integration, fast delivery, and efficient monitoring to ensure reliable and high-performance systems."
+  },
+  "LIBS": {
+    "TITLE": "Key Libraries",
+    "DESCRIPTION": "Expertise in widely used libraries in the market, essential for optimizing workflows, handling data, managing state, and integrating advanced features into modern projects."
+  }
+}

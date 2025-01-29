@@ -1,0 +1,6 @@
+{
+  "CONTACT": {
+    "MESSAGE_SEND_SUCCESSFULLY": "Mensagem enviada com sucesso!",
+    "MESSAGE_SEND_ERROR": "Ops! Ouve um erro ao enviar a mensagem, tente novamente."
+  }
+}

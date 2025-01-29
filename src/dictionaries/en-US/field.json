@@ -1,0 +1,10 @@
+{
+  "NAME": "Name",
+  "NAME_PLACEHOLDER": "First and last name",
+  "EMAIL": "Email",
+  "EMAIL_PLACEHOLDER": "Your best email",
+  "CELLPHONE": "Cellphone",
+  "CELLPHONE_PLACEHOLDER": "Your number",
+  "MESSAGE": "Message",
+  "MESSAGE_PLACEHOLDER": "Write your message here"
+}

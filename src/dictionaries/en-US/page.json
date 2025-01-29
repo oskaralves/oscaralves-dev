@@ -1,0 +1,41 @@
+{
+  "HOME": "Home",
+  "ABOUT": "About",
+  "SKILLS": "Skills",
+  "EXPERIENCES": "Experiences",
+  "PROJECTS": "Projects",
+  "CONTACT": "Contact",
+  "HOME_PAGE": {
+    "HELLO": "Hello, my name is",
+    "SOFTWARE_ENGINEER_FULLSTACK": "I am a Full Stack Software Engineer",
+    "SOFTWARE_ENGINEER": "I am a Software Engineer",
+    "SOFTWARE_ENGINEER_FRONTEND": "I am a Front End Software Engineer",
+    "SOFTWARE_ENGINEER_BACKEND": "I am a Back End Software Engineer",
+    "I_AM": "I am",
+    "UI_UX_DESIGNER": "I am a UI & UX Designer"
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "About",
+    "PARAGRAPH_1": "I am a Full Stack Software Engineer with over 15 years of experience in software development. My career is marked by the combination of technical skills, a strategic approach to design, and a deep understanding of business, allowing me to create high-performance and impactful technological solutions.",
+    "PARAGRAPH_2": "In 2012, I co-founded IVEStudio (Inside the Visual Experiences), where I served as a creative director, designer, and frontend developer. One of the company's most relevant products was the development of a mobile and web platform that connected passengers to taxi drivers, providing administrative and financial management for cooperatives, competing with companies such as Taxibeat and EasyTaxi in Rio de Janeiro.",
+    "PARAGRAPH_3": "In 2018, I co-founded Bitbeer, a SaaS platform focused on the craft beer market. I was involved in all stages of development, leading the creation of a mobile application for customers and store owners, developed with Ionic and Angular, as well as an administrative panel for order and operations management, built using Angular, C# .NET Core, ElasticSearch, and PostgreSQL. The platform was designed to be functional and scalable, incorporating advanced features such as a detailed product catalog that correlated with each user profile’s preferences, integration with delivery services, a discount coupon system, and a payment module.",
+    "PARAGRAPH_4": "Between 2021 and 2024, I refined my skills in modern technologies and developed strong autonomy in project management. I have an innate ability to learn and am constantly improving, aiming to create solutions that positively impact businesses and people."
+  },
+  "SKILLS_PAGE": {
+    "TITLE": "Skills",
+    "PARAGRAPH_1": "Throughout my career, I have developed expertise in various programming languages, frameworks, libraries, and tools that allow me to build modern and efficient solutions. Whether in frontend, backend, or mobile development, I am always focused on using best practices and technologies to deliver high-quality and impactful products.",
+    "DOMAIN_LEVEL": "Proficiency Level"
+  },
+  "EXPERIENCES_PAGE": {
+    "TITLE": "Experiences",
+    "PARAGRAPH_1": "My professional journey is defined by diverse experiences that span software development, design, and technical leadership. In each opportunity, I contributed with innovative solutions, tackled unique challenges, and learned new technologies. These experiences have shaped my career and strengthened my passion for creating impact through my work."
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "Contact",
+    "SUBTITLE": "Get in touch",
+    "PARAGRAPH_1": "Feel free to reach out to me!",
+    "EMAIL": "Email",
+    "LINKEDIN": "Linkedin",
+    "GITHUB": "Github"
+  }
+}
