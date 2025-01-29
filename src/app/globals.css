@@ -27,7 +27,7 @@
     --ring: 343 65% 49%;
     --radius: 0.7rem;
     --gradient-background: linear-gradient(90deg, #d6d6d6 0%, #d4d4d4 100%);
-    --gradient-section-1: linear-gradient(90deg, #c2c2c2 0%, #afafaf 100%);
+    --gradient-section-1: linear-gradient(90deg, #cccccc 0%, #bebebe 100%);
   }
 
   .dark {

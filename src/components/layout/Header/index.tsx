@@ -15,7 +15,7 @@ export function Header() {
   const { sidebarExpanded, handleToggleSidebar } = useAppContext();
 
   return (
-    <header className="sticky top-0 z-50 col-span-full flex h-[68px] items-center px-3 transition-all md:pr-6">
+    <header className="sticky top-0 z-50 col-span-full flex h-[68px] items-center px-3 transition-all">
       <div
         className={cn(
           'fixed left-0 top-[68px] -z-20 h-6 w-6 text-[#d6d6d6] dark:text-[#212121]',
