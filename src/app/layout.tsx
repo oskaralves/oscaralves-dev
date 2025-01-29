@@ -4,7 +4,6 @@ import { AppContextProvider } from '@/contexts/AppContext';
 import { LocaleProvider } from '@/contexts/locale-context';
 import { Locale } from '@/types/locale';
 import { getLocale } from '@/utils/locale';
-import { Github01Icon } from 'hugeicons-react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import { ThemeProvider } from '../../theme/ThemeProvider';
@@ -46,14 +45,13 @@ export default async function RootLayout({
                 <Header />
 
                 <div className="font-default text-background-foreground grid h-full grid-cols-1 md:grid-cols-[auto_1fr]">
-                  <Sidebar>
-                    <div className="flex min-h-16 w-full flex-row items-center justify-center gap-2">
-                      <Github01Icon />
-                    </div>
-                  </Sidebar>
+                  <Sidebar />
 
                   <div className="sticky top-[68px] overflow-hidden rounded-tl-3xl bg-neutral-100/20 text-foreground dark:bg-neutral-900/40">
                     {children}
+                    <footer className="w-full bg-neutral-100 p-4 text-center text-sm text-muted-foreground dark:bg-neutral-900">
+                      © 2025 Oscar Alves. Todos os direitos reservados.
+                    </footer>
                   </div>
                 </div>
               </AppContextProvider>

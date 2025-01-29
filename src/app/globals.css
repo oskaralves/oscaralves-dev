@@ -26,8 +26,8 @@
     --input: 0 0% 83.8%;
     --ring: 343 65% 49%;
     --radius: 0.7rem;
-    --gradient-background: linear-gradient(135deg, #d6d6d6 0%, #d4d4d4 100%);
-    --gradient-section-1: linear-gradient(135deg, #c2c2c2 0%, #afafaf 100%);
+    --gradient-background: linear-gradient(90deg, #d6d6d6 0%, #d4d4d4 100%);
+    --gradient-section-1: linear-gradient(90deg, #c2c2c2 0%, #afafaf 100%);
   }
 
   .dark {
@@ -52,8 +52,8 @@
     --border: 0 0% 16.9%;
     --input: 0 0% 24.9%;
     --ring: 343 65% 49%;
-    --gradient-background: linear-gradient(135deg, #212121 0%, #1c1c1c 100%);
-    --gradient-section-1: linear-gradient(135deg, #151515 0%, #1a1a1a 100%);
+    --gradient-background: linear-gradient(90deg, #212121 0%, #1c1c1c 100%);
+    --gradient-section-1: linear-gradient(90deg, #151515 0%, #1a1a1a 100%);
   }
 }
 
