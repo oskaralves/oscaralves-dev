@@ -14,14 +14,14 @@ export const ExpandableDescription = ({
     <div className="relative">
       <div
         className={`overflow-hidden text-sm leading-relaxed text-muted-foreground transition-all duration-300 ${
-          isExpanded ? 'line-clamp-none' : 'line-clamp-4'
+          isExpanded ? 'line-clamp-none' : 'line-clamp-6 lg:line-clamp-4'
         }`}
       >
         {description}
       </div>
       <Button
         variant="link"
-        className="mt-2 p-0 text-sm text-primary underline"
+        className="-mb-1 mt-2 p-0 text-sm font-medium text-primary underline"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         {isExpanded ? 'Ver menos' : 'Ver mais'}

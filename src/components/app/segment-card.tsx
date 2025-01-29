@@ -1,3 +1,6 @@
+'use client';
+
+import { useDictionary } from '@/contexts/dictionary-context';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { ReactNode } from 'react';
@@ -25,8 +28,16 @@ export const SegmentCard = ({
   skills,
   isCompact,
 }: SegmentCardProps) => {
+  const {
+    page: { SKILLS_PAGE },
+  } = useDictionary();
   return (
-    <div className="flex h-full w-full flex-col items-center gap-8 bg-card px-6 py-8 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+    <div
+      className={cn(
+        'flex h-full w-full flex-col items-center gap-8 bg-card px-6 py-8 shadow-xl transition-all hover:scale-105 hover:shadow-2xl',
+        { 'hover:scale-[1.025]': isCompact }
+      )}
+    >
       <div className="flex w-full flex-row justify-between px-3">
         <div className="flex min-h-24 flex-1 flex-col gap-2">
           <h3 className="text-2xl font-light text-primary">{title}</h3>
@@ -36,7 +47,7 @@ export const SegmentCard = ({
         </div>
         <div className="flex-0 min-h-10">{icon}</div>
       </div>
-      <p className="text-xs opacity-35">Nível de domínio</p>
+      <p className="text-sm opacity-45">{SKILLS_PAGE.DOMAIN_LEVEL}</p>
 
       <div className="grid w-full grid-cols-1 items-start justify-items-center gap-3 lg:grid-cols-4">
         {skills?.map((skill, index) => (
@@ -57,10 +68,11 @@ export const SegmentCard = ({
                   unoptimized
                 />
               }
-              isCompact={isCompact}
               title={skill.title}
               color={skill.color}
               level={skill.level}
+              isCompact={isCompact}
+              index={index}
             />
           </div>
         ))}

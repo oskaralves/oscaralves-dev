@@ -159,7 +159,7 @@ export const CanvasParticles = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute left-0 top-0 -z-10 h-full w-full opacity-35"
+      className="absolute left-0 top-0 -z-10 h-full w-full opacity-55"
     />
   );
 };

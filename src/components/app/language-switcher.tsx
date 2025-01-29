@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { Button } from '../ui/button';
 
 export const LanguageSwitcher = () => {
-  const { isPending, locale, setLocale } = useLanguage();
+  const { isPending, locale, handleSetLocale } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => setIsOpen((prev) => !prev);
@@ -62,7 +62,7 @@ export const LanguageSwitcher = () => {
         <div className="absolute right-0 z-50 mt-2 w-56 rounded-md border border-border bg-background p-1 shadow-md">
           <button
             onClick={() => {
-              setLocale('pt-BR');
+              handleSetLocale('pt-BR');
               setIsOpen(false);
             }}
             className="flex w-full items-center rounded px-2 py-1 text-left transition hover:bg-foreground/10"
@@ -72,7 +72,7 @@ export const LanguageSwitcher = () => {
           </button>
           <button
             onClick={() => {
-              setLocale('en-US');
+              handleSetLocale('en-US');
               setIsOpen(false);
             }}
             className="flex w-full items-center rounded px-2 py-1 text-left transition hover:bg-foreground/10"

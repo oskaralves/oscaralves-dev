@@ -11,7 +11,7 @@ export const LogoCarousel = () => {
         {skills.map((logo, index) => (
           <div
             key={index}
-            className="flex h-36 w-32 transform flex-col items-center justify-center gap-3 p-6"
+            className="flex h-36 w-32 transform flex-col items-center justify-center gap-3 p-6 transition-all hover:scale-125"
           >
             <Image
               src={logo.imageUrl}
