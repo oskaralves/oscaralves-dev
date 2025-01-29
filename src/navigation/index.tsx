@@ -20,7 +20,7 @@ import {
 export const getNavigation = (locale: Locale): { items: IMenuItem[] } => {
   const { HOME, ABOUT, SKILLS, EXPERIENCES, CONTACT } = getDictionary(
     locale,
-    'navigation'
+    'page'
   );
   return {
     items: [

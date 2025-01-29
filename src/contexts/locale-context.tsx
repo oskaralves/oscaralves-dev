@@ -3,17 +3,21 @@
 import { Locale } from '@/types/locale';
 import { useRouter } from 'next/navigation';
 import { createContext, useContext, useState, useTransition } from 'react';
+import { Country } from 'react-phone-number-input';
 
+export const countries: Record<Locale, Country> = {
+  'pt-BR': 'BR',
+  'en-US': 'US',
+};
 
 type LocaleContextProps = {
   locale: Locale;
-  setLocale: (locale: Locale) => void;
+  handleSetLocale: (locale: Locale) => void;
   isPending: boolean;
+  countries: Record<Locale, Country>;
 };
 
-const LocaleContext = createContext<LocaleContextProps | undefined>(
-  undefined
-);
+const LocaleContext = createContext<LocaleContextProps | undefined>(undefined);
 
 export const LocaleProvider = ({
   children,
@@ -37,17 +41,15 @@ export const LocaleProvider = ({
         body: JSON.stringify({ locale: newLocale }),
       });
 
-      // Atualiza o estado do idioma
       setLocale(newLocale);
 
-      // Usando o router.replace para forçar o re-render sem recarregar a página
       router.refresh();
     });
   };
 
   return (
     <LocaleContext.Provider
-      value={{ locale, setLocale: handleSetLocale,  isPending }}
+      value={{ locale, handleSetLocale, countries, isPending }}
     >
       {children}
     </LocaleContext.Provider>
