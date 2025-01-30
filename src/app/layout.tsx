@@ -8,6 +8,7 @@ import { LocaleProvider } from '@/contexts/locale-context';
 import { getDictionary } from '@/dictionaries';
 import { Locale } from '@/types/locale';
 import { getLocale } from '@/utils/locale';
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import { ThemeProvider } from '../../theme/ThemeProvider';
@@ -67,6 +68,7 @@ export default async function RootLayout({
             </ThemeProvider>
           </DictionaryProvider>
         </LocaleProvider>
+        <Analytics />
       </body>
     </html>
   );
