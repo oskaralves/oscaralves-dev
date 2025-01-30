@@ -30,8 +30,8 @@ export const ContactSection = () => {
               <ContactInfo
                 icon={<Mail02Icon className="size-8" strokeWidth={0.8} />}
                 label={CONTACT_PAGE.EMAIL}
-                value="osk.alves@email.com"
-                link="mailto:osk.alves@email.com"
+                value="osk.alves@gmail.com"
+                link="mailto:osk.alves@gmail.com"
               />
               <ContactInfo
                 icon={<Linkedin02Icon className="size-8" strokeWidth={0.8} />}
