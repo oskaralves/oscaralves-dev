@@ -70,8 +70,8 @@ export const HomeSection = () => {
         viewport={{ once: true, margin: '-100px' }}
         variants={fadeInVariants}
         transition={{
-          duration: 2,
-          delay: 0.5,
+          duration: 1,
+          delay: 0.1,
           ease: 'easeInOut',
         }}
         style={{
