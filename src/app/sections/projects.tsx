@@ -1,6 +1,4 @@
-import { memo } from 'react';
-
-const ProjectsSectionComponent = () => {
+export const ProjectsSection = () => {
   return (
     <section
       id="projects"
@@ -10,7 +8,3 @@ const ProjectsSectionComponent = () => {
     </section>
   );
 };
-
-ProjectsSectionComponent.displayName = 'ProjectsSection';
-
-export const ProjectsSection = memo(ProjectsSectionComponent);

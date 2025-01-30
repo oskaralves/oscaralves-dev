@@ -8,9 +8,8 @@ import {
   MessageDone01Icon,
   SmartWatch03Icon,
 } from 'hugeicons-react';
-import { memo } from 'react';
 
-const FeaturesCardsSectionComponent = () => {
+export const FeaturesCardsSection = () => {
   const {
     page: { FEATURES_CARD },
   } = useDictionary();
@@ -93,7 +92,3 @@ const FeaturesCardsSectionComponent = () => {
     </section>
   );
 };
-
-FeaturesCardsSectionComponent.displayName = 'FeaturesCardsSection';
-
-export const FeaturesCardsSection = memo(FeaturesCardsSectionComponent);

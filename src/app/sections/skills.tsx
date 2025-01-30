@@ -7,9 +7,8 @@ import { useDictionary } from '@/contexts/dictionary-context';
 import { useLanguage } from '@/contexts/locale-context';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
-import { memo } from 'react';
 
-const SkillsSectionComponent = () => {
+export const SkillsSection = () => {
   const {
     page: { SKILLS_PAGE },
   } = useDictionary();
@@ -73,9 +72,3 @@ const SkillsSectionComponent = () => {
     </section>
   );
 };
-
-SkillsSectionComponent.displayName = 'SkillsSection';
-
-export const SkillsSection = memo(SkillsSectionComponent);
-
-export default SkillsSection;
