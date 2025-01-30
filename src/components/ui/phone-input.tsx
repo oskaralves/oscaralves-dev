@@ -109,7 +109,7 @@ const CountrySelect = ({
           type="button"
           variant="ghost"
           className={cn(
-            '-mr-[1px] flex gap-1 border border-input bg-background px-3 py-4 hover:z-10 lg:py-7'
+            '-mr-[1px] flex gap-1 border border-input bg-background px-3 py-6 hover:z-10 lg:py-7'
           )}
           disabled={disabled}
           startIcon={<FlagComponent country={value} countryName={value} />}

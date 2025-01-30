@@ -34,7 +34,7 @@ export const SegmentCard = ({
   return (
     <div
       className={cn(
-        'flex h-full w-full flex-col items-center gap-8 bg-card px-6 py-8 shadow-xl transition-all hover:scale-105 hover:shadow-2xl',
+        'flex h-full w-full flex-col items-center gap-8 bg-card px-2 py-5 shadow-xl lg:px-6 lg:py-8',
         { 'hover:scale-[1.025]': isCompact }
       )}
     >

@@ -104,7 +104,7 @@ export const ContactForm = () => {
                 <Input
                   {...field}
                   variant={invalid ? 'destructive' : 'default'}
-                  className="px-2 py-4 pl-11 lg:px-3 lg:py-7 lg:pl-11"
+                  className="px-2 py-6 pl-11 lg:px-3 lg:py-7 lg:pl-11"
                   placeholder={NAME_PLACEHOLDER}
                   startIcon={
                     <UserIcon
@@ -132,7 +132,7 @@ export const ContactForm = () => {
                   {...field}
                   value={field.value ?? undefined}
                   variant={invalid ? 'destructive' : 'default'}
-                  className="px-2 py-4 pl-11 lg:px-3 lg:py-7 lg:pl-11"
+                  className="px-2 py-6 pl-11 lg:px-3 lg:py-7 lg:pl-11"
                   placeholder={EMAIL_PLACEHOLDER}
                   startIcon={
                     <Mail02Icon
@@ -163,7 +163,7 @@ export const ContactForm = () => {
                   defaultCountry={country}
                   onCountryChange={setCountry}
                   variant={invalid ? 'destructive' : 'default'}
-                  className="flex w-full px-2 py-4 pl-11 lg:px-3 lg:py-7 lg:pl-11"
+                  className="flex w-full px-2 py-6 pl-11 lg:px-3 lg:py-7 lg:pl-11"
                   startIcon={
                     <SmartPhone01Icon
                       className="pointer-events-none size-6"
