@@ -95,7 +95,7 @@ export const HomeSection = () => {
         △
       </motion.div>
       <motion.div
-        className="absolute -top-[380px] left-[70%] z-30 rotate-12 scale-125 text-[240px] text-primary opacity-55 blur-[8px]"
+        className="absolute -top-[450px] left-[70%] z-0 rotate-12 scale-125 text-[240px] text-primary opacity-55 blur-[8px] lg:-top-[380px] lg:z-30"
         style={{ y: symbol03Y }}
       >
         △
@@ -119,8 +119,8 @@ export const HomeSection = () => {
       >
         ◯
       </motion.div>
-      <div className="container relative z-0 flex">
-        <div className="min-w-72 max-w-[620px] flex-1 flex-col pl-4 md:pl-10">
+      <div className="container relative z-50 flex">
+        <div className="min-w-72 max-w-[620px] flex-1 flex-col md:pl-10">
           <motion.h2
             className="text-shadow relative z-20 mb-5 text-xl font-light text-foreground text-neutral-900 dark:text-neutral-400 lg:text-2xl"
             style={{ y: text01Y, x: text01X, opacity: text01Opacity }}
@@ -136,7 +136,7 @@ export const HomeSection = () => {
           </motion.h2>
 
           <motion.h1
-            className="text-shadow relative -z-50 mb-2 min-h-24 whitespace-nowrap text-6xl font-extrabold leading-[50px] text-foreground md:text-7xl md:leading-[80px] lg:text-8xl lg:leading-[90px]"
+            className="text-shadow relative -z-50 mb-2 min-h-24 text-5xl font-extrabold leading-[50px] text-foreground md:text-7xl md:leading-[80px] lg:whitespace-nowrap lg:text-8xl lg:leading-[90px]"
             style={{
               y: text02Y,
               x: text02X,
@@ -152,7 +152,7 @@ export const HomeSection = () => {
             />
           </motion.h1>
           <motion.p
-            className="text-shadow relative z-50 min-h-32 pr-24 text-xl font-normal leading-7 text-neutral-900 dark:text-neutral-400 md:text-xl md:leading-6 lg:text-2xl lg:leading-9"
+            className="text-shadow relative z-50 min-h-32 text-xl font-normal leading-7 text-neutral-900 dark:text-neutral-400 md:text-xl md:leading-6 lg:pr-24 lg:text-2xl lg:leading-9"
             style={{ y: text03Y, x: text03X, opacity: text03Opacity }}
           >
             {isWaiting ? (
@@ -173,6 +173,7 @@ export const HomeSection = () => {
                   HOME_PAGE.I_AM,
                   0,
                   HOME_PAGE.UI_UX_DESIGNER,
+                  3000,
                 ]}
                 speed={50}
                 wrapper="span"
