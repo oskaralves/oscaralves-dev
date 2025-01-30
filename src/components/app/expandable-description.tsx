@@ -1,5 +1,6 @@
 'use client';
 
+import { useDictionary } from '@/contexts/dictionary-context';
 import { ReactNode, useState } from 'react';
 import { Button } from '../ui/button';
 
@@ -8,6 +9,9 @@ export const ExpandableDescription = ({
 }: {
   description: ReactNode;
 }) => {
+  const {
+    general: { SEE_MORE, SEE_LESS },
+  } = useDictionary();
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -24,7 +28,7 @@ export const ExpandableDescription = ({
         className="-mb-1 mt-2 p-0 text-sm font-medium text-primary underline"
         onClick={() => setIsExpanded(!isExpanded)}
       >
-        {isExpanded ? 'Ver menos' : 'Ver mais'}
+        {isExpanded ? SEE_LESS : SEE_MORE}
       </Button>
     </div>
   );
