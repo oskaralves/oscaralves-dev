@@ -1,8 +1,11 @@
-import { NextResponse } from 'next/server';
+import type { MetadataRoute } from 'next';
 
-export function GET() {
-  return new NextResponse(
-    `User-agent: *\nDisallow:\nSitemap: https://oscaralves.dev/sitemap.xml`,
-    { headers: { 'Content-Type': 'text/plain' } }
-  );
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: 'https://oscaralves.dev/sitemap.xml',
+  };
 }
