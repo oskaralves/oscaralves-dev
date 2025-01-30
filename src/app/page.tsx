@@ -1,9 +1,11 @@
-import { AboutSection } from './sections/about';
-import { ContactSection } from './sections/contact';
-import { ExperiencesSection } from './sections/experiences';
+import dynamic from 'next/dynamic';
 import { FeaturesCardsSection } from './sections/features-cards';
 import { HomeSection } from './sections/home';
-import { SkillsSection } from './sections/skills';
+
+const AboutSection = dynamic(() => import('./sections/about'));
+const SkillsSection = dynamic(() => import('./sections/skills'), {});
+const ExperiencesSection = dynamic(() => import('./sections/experiences'), {});
+const ContactSection = dynamic(() => import('./sections/contact'), {});
 
 export default function HomePage() {
   return (

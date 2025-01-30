@@ -3,8 +3,9 @@
 import { ExperienceTimeline } from '@/components/app/experience-timeline';
 import { useDictionary } from '@/contexts/dictionary-context';
 import { motion } from 'framer-motion';
+import { memo } from 'react';
 
-export const ExperiencesSection = () => {
+const ExperiencesSectionComponent = () => {
   const {
     page: { EXPERIENCES_PAGE },
   } = useDictionary();
@@ -37,3 +38,9 @@ export const ExperiencesSection = () => {
     </section>
   );
 };
+
+ExperiencesSectionComponent.displayName = 'ExperiencesSection';
+
+const ExperiencesSection = memo(ExperiencesSectionComponent);
+
+export default ExperiencesSection;

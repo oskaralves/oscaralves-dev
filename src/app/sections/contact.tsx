@@ -4,8 +4,9 @@ import { ContactForm } from '@/components/app/contact-form';
 import { ContactInfo } from '@/components/app/contact-info';
 import { useDictionary } from '@/contexts/dictionary-context';
 import { Github01Icon, Linkedin02Icon, Mail02Icon } from 'hugeicons-react';
+import { memo } from 'react';
 
-export const ContactSection = () => {
+const ContactSectionComponent = () => {
   const {
     page: { CONTACT_PAGE },
   } = useDictionary();
@@ -54,3 +55,9 @@ export const ContactSection = () => {
     </section>
   );
 };
+
+ContactSectionComponent.displayName = 'ContactSection';
+
+export const ContactSection = memo(ContactSectionComponent);
+
+export default ContactSection;

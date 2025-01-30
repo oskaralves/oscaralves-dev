@@ -2,8 +2,9 @@
 
 import { useDictionary } from '@/contexts/dictionary-context';
 import { motion } from 'framer-motion';
+import { memo } from 'react';
 
-export const AboutSection = () => {
+const AboutSectionComponent = () => {
   const {
     page: { ABOUT_PAGE },
   } = useDictionary();
@@ -64,18 +65,14 @@ export const AboutSection = () => {
               {ABOUT_PAGE.PARAGRAPH_4}
             </motion.p>
           </div>
-          {/* <div className="min-w-full border border-primary bg-white/30 p-12 dark:bg-black/30 md:col-span-1">
-            <Image
-              src="/images/img-about.jpg"
-              className="block w-full opacity-35 "
-              alt=""
-              width={780}
-              height={1783}
-              unoptimized
-            />
-          </div> */}
         </div>
       </div>
     </section>
   );
 };
+
+AboutSectionComponent.displayName = 'AboutSection';
+
+const AboutSection = memo(AboutSectionComponent);
+
+export default AboutSection;

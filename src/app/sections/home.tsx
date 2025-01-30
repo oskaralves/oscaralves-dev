@@ -6,11 +6,11 @@ import { useDictionary } from '@/contexts/dictionary-context';
 import { useLanguage } from '@/contexts/locale-context';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowDown02Icon } from 'hugeicons-react';
-import { useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { LogoCarousel } from '../../components/app/logo-carousel';
 
-export const HomeSection = () => {
+const HomeSectionComponent = () => {
   const { handleMenuClick } = useAppContext();
   const { locale } = useLanguage();
   const {
@@ -201,3 +201,7 @@ export const HomeSection = () => {
     </section>
   );
 };
+
+HomeSectionComponent.displayName = 'HomeSection';
+
+export const HomeSection = memo(HomeSectionComponent);
