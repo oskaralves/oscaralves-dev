@@ -44,7 +44,7 @@ export const HomeSection = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsWaiting(true);
-    }, 200);
+    }, 1000);
 
     return () => {
       clearTimeout(timeout);
