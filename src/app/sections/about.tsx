@@ -10,7 +10,7 @@ export const AboutSection = () => {
   return (
     <section
       id="about"
-      className="relative flex min-h-[700px] w-full flex-col bg-background/20 bg-[url('/images/img-about.png')] bg-cover bg-right-top pb-24 pt-12 md:min-h-[calc(100vh-68px)]"
+      className="relative flex min-h-[700px] w-full flex-col bg-background/20 pb-24 pt-12 md:min-h-[calc(100vh-68px)] lg:bg-[url('/images/img-about.png')] lg:bg-cover lg:bg-right-top"
     >
       <div className="container space-y-6">
         <div className="grid grid-cols-1 items-start justify-items-center gap-4 lg:grid-cols-3">
