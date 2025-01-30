@@ -1,6 +1,7 @@
 'use client';
 
 import { FeatureCard } from '@/components/app/feature-card';
+import { useDictionary } from '@/contexts/dictionary-context';
 import { motion } from 'framer-motion';
 import {
   ChartBreakoutSquareIcon,
@@ -9,6 +10,9 @@ import {
 } from 'hugeicons-react';
 
 export const FeaturesCardsSection = () => {
+  const {
+    page: { FEATURES_CARD },
+  } = useDictionary();
   const fadeInVariants = {
     left: { opacity: 1, x: 0 },
     top: { opacity: 1, y: 0 },
@@ -41,13 +45,7 @@ export const FeaturesCardsSection = () => {
                 />
               }
               bigLabel="15+"
-              description={
-                <>
-                  Anos de
-                  <br />
-                  experiência
-                </>
-              }
+              description={FEATURES_CARD.YEARS_OF_EXPERIENCE}
             />
           </motion.div>
 
@@ -66,12 +64,7 @@ export const FeaturesCardsSection = () => {
                   strokeWidth={0.5}
                 />
               }
-              description={
-                <>
-                  Criativo, responsável, veloz
-                  <br />e cheio de garra.
-                </>
-              }
+              description={FEATURES_CARD.CREATIVE_RESPONSIBLE_FAST}
             />
           </motion.div>
 
@@ -91,7 +84,7 @@ export const FeaturesCardsSection = () => {
                   strokeWidth={0.5}
                 />
               }
-              description="Desenrolado, dedicado e apaixonado por tecnologia."
+              description={FEATURES_CARD.DEDICATED_TECHNOLOGY_PASSIONATE}
             />
           </motion.div>
         </div>

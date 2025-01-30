@@ -7,12 +7,17 @@
   "CONTACT": "Contact",
   "HOME_PAGE": {
     "HELLO": "Hello, my name is",
-    "SOFTWARE_ENGINEER_FULLSTACK": "I am a Full Stack Software Engineer",
-    "SOFTWARE_ENGINEER": "I am a Software Engineer",
-    "SOFTWARE_ENGINEER_FRONTEND": "I am a Front End Software Engineer",
-    "SOFTWARE_ENGINEER_BACKEND": "I am a Back End Software Engineer",
+    "SOFTWARE_ENGINEER_FULLSTACK": "I am Full Stack Software Engineer",
+    "SOFTWARE_ENGINEER": "I am Software Engineer",
+    "SOFTWARE_ENGINEER_FRONTEND": "I am Front End Software Engineer",
+    "SOFTWARE_ENGINEER_BACKEND": "I am Back End Software Engineer",
     "I_AM": "I am",
-    "UI_UX_DESIGNER": "I am a UI & UX Designer"
+    "UI_UX_DESIGNER": "I am UI & UX Designer"
+  },
+  "FEATURES_CARD": {
+    "YEARS_OF_EXPERIENCE": "Years of experience",
+    "CREATIVE_RESPONSIBLE_FAST": "Creative, responsible, fast, and full of drive.",
+    "DEDICATED_TECHNOLOGY_PASSIONATE": "Dedicated, and passionate about technology."
   },
   "ABOUT_PAGE": {
     "TITLE": "About",
