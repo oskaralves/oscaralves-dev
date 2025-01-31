@@ -7,7 +7,7 @@ import Marquee from 'react-fast-marquee';
 export const LogoCarousel = () => {
   return (
     <div className="relative flex w-screen items-stretch justify-between gap-5 overflow-hidden bg-background/90 shadow-primary">
-      <Marquee speed={50}>
+      <Marquee speed={70}>
         {skills.map((logo, index) => (
           <div
             key={index}

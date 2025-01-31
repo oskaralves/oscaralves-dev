@@ -45,7 +45,7 @@ export const FeaturesCardsSection = () => {
                 />
               }
               bigLabel="15+"
-              description={FEATURES_CARD.YEARS_OF_EXPERIENCE}
+              description={FEATURES_CARD.TEXT_1}
             />
           </motion.div>
 
@@ -64,7 +64,7 @@ export const FeaturesCardsSection = () => {
                   strokeWidth={0.5}
                 />
               }
-              description={FEATURES_CARD.CREATIVE_RESPONSIBLE_FAST}
+              description={FEATURES_CARD.TEXT_2}
             />
           </motion.div>
 
@@ -84,7 +84,7 @@ export const FeaturesCardsSection = () => {
                   strokeWidth={0.5}
                 />
               }
-              description={FEATURES_CARD.DEDICATED_TECHNOLOGY_PASSIONATE}
+              description={FEATURES_CARD.TEXT_3}
             />
           </motion.div>
         </div>

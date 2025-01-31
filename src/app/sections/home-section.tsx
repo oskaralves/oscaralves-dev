@@ -20,18 +20,6 @@ export const HomeSection = () => {
   const { scrollY } = useScroll();
   const backgroundY = useTransform(scrollY, [0, 750], ['0%', '58%']);
 
-  const text01Y = useTransform(scrollY, [0, 800], ['0%', '300%']);
-  const text01X = useTransform(scrollY, [100, 500], ['0%', '-500%']);
-  const text01Opacity = useTransform(scrollY, [100, 200], ['100%', '0%']);
-
-  const text02Y = useTransform(scrollY, [0, 800], ['0%', '325%']);
-  const text02X = useTransform(scrollY, [125, 525], ['0%', '-500%']);
-  const text02Opacity = useTransform(scrollY, [150, 200], ['100%', '0%']);
-
-  const text03Y = useTransform(scrollY, [0, 800], ['0%', '400%']);
-  const text03X = useTransform(scrollY, [150, 550], ['0%', '-500%']);
-  const text03Opacity = useTransform(scrollY, [200, 250], ['100%', '0%']);
-
   const symbol01Y = useTransform(scrollY, [0, 900], ['-160%', '58%']);
   const symbol02Y = useTransform(scrollY, [0, 900], ['-190%', '-178%']);
   const symbol03Y = useTransform(scrollY, [0, 500], ['128%', '8%']);
@@ -120,11 +108,8 @@ export const HomeSection = () => {
         ◯
       </motion.div>
       <div className="container relative z-50 flex">
-        <div className="min-w-72 max-w-[620px] flex-1 flex-col md:pl-10">
-          <motion.h2
-            className="text-shadow relative z-20 mb-5 text-xl font-light text-foreground text-neutral-900 dark:text-neutral-400 lg:text-2xl"
-            style={{ y: text01Y, x: text01X, opacity: text01Opacity }}
-          >
+        <div className="flex min-w-72 max-w-[620px] flex-1 flex-col items-start md:pl-10">
+          <div className="text-shadow relative z-20 mb-2 bg-black/30 p-3 text-xl font-normal text-white dark:bg-none lg:text-2xl">
             {isWaiting ? (
               <TypeAnimation
                 sequence={['', 400, HOME_PAGE.HELLO]}
@@ -133,28 +118,18 @@ export const HomeSection = () => {
                 repeat={0}
               />
             ) : null}
-          </motion.h2>
+          </div>
 
-          <motion.h1
-            className="text-shadow relative -z-50 mb-2 min-h-24 text-5xl font-extrabold leading-[50px] text-foreground md:text-7xl md:leading-[80px] lg:whitespace-nowrap lg:text-8xl lg:leading-[90px]"
-            style={{
-              y: text02Y,
-              x: text02X,
-              opacity: text02Opacity,
-            }}
-          >
+          <div className="text-shadow relative -z-50 mb-2 bg-black/30 p-3 text-5xl font-extrabold text-white md:text-7xl md:leading-[80px] lg:whitespace-nowrap lg:text-8xl lg:leading-[90px]">
             <TypeAnimation
               sequence={['', 1000, 'Oscar Alves']}
-              wrapper="span"
+              wrapper="h1"
               speed={1}
               cursor={false}
               repeat={0}
             />
-          </motion.h1>
-          <motion.p
-            className="text-shadow relative z-50 min-h-32 text-xl font-normal leading-7 text-neutral-900 dark:text-neutral-400 md:text-xl md:leading-6 lg:pr-24 lg:text-2xl lg:leading-9"
-            style={{ y: text03Y, x: text03X, opacity: text03Opacity }}
-          >
+          </div>
+          <div className="text-shadow relative z-50 whitespace-normal bg-black/30 p-3 text-xl font-normal leading-7 text-white md:whitespace-nowrap md:text-xl md:leading-6 lg:text-2xl lg:leading-9">
             {isWaiting ? (
               <TypeAnimation
                 sequence={[
@@ -180,17 +155,17 @@ export const HomeSection = () => {
                 repeat={Infinity}
               />
             ) : null}
-          </motion.p>
+          </div>
         </div>
       </div>
       <div className="absolute right-4 top-[70%] z-30 md:left-1/2 md:right-auto md:-translate-x-1/2 md:transform">
         <motion.button
-          className="relative z-50 cursor-pointer rounded-full border border-foreground bg-background/50 py-4"
+          className="relative z-50 cursor-pointer rounded-full border border-foreground bg-background/30 py-4"
           onClick={() => handleMenuClick('about')}
           style={{ opacity: opacityOut }}
         >
           <ArrowDown02Icon
-            className="size-12 animate-scroll-hint text-primary"
+            className="size-12 animate-scroll-hint text-background dark:text-foreground"
             strokeWidth={0.4}
           />
         </motion.button>

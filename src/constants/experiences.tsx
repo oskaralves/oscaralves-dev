@@ -39,7 +39,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       role: MERCADO_DIFERENTE.ROLE,
       startDate: MERCADO_DIFERENTE.START_DATE,
       endDate: MERCADO_DIFERENTE.END_DATE,
-      logo: '/images/logos/mercado-diferente.jpg',
+      logo: '/images/logos/mercado-diferente.png',
       description: formatDescription(MERCADO_DIFERENTE.DESCRIPTION),
     },
     {

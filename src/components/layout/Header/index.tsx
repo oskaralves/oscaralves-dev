@@ -68,7 +68,7 @@ export function Header() {
           <div className="relative h-6 w-14">
             <Link href="/" className="absolute h-full w-full cursor-pointer">
               <Image
-                src="/images/logotype.svg"
+                src="/svgs/logotype.svg"
                 className="overflow-hidden transition-all"
                 fill
                 priority

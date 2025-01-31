@@ -29,7 +29,7 @@ export const AboutSection = () => {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1, delay: 1.2, ease: 'easeOut' }}
+              transition={{ duration: 1, ease: 'easeOut' }}
             >
               {ABOUT_PAGE.PARAGRAPH_1}
             </motion.p>
@@ -39,7 +39,7 @@ export const AboutSection = () => {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1, delay: 1.4, ease: 'easeOut' }}
+              transition={{ duration: 1, ease: 'easeOut' }}
             >
               {ABOUT_PAGE.PARAGRAPH_2}
             </motion.p>
@@ -49,7 +49,7 @@ export const AboutSection = () => {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1, delay: 1.6, ease: 'easeOut' }}
+              transition={{ duration: 1, ease: 'easeOut' }}
             >
               {ABOUT_PAGE.PARAGRAPH_3}
             </motion.p>
@@ -59,7 +59,7 @@ export const AboutSection = () => {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1, delay: 1.8, ease: 'easeOut' }}
+              transition={{ duration: 1, ease: 'easeOut' }}
             >
               {ABOUT_PAGE.PARAGRAPH_4}
             </motion.p>

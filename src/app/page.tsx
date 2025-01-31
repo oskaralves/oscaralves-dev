@@ -1,9 +1,9 @@
-import { AboutSection } from './sections/about';
-import { ContactSection } from './sections/contact';
-import { ExperiencesSection } from './sections/experiences';
-import { FeaturesCardsSection } from './sections/features-cards';
-import { HomeSection } from './sections/home';
-import { SkillsSection } from './sections/skills';
+import { AboutSection } from './sections/about-section';
+import { ContactSection } from './sections/contact-section';
+import { ExperiencesSection } from './sections/experiences-section';
+import { FeaturesCardsSection } from './sections/features-cards-section';
+import { HomeSection } from './sections/home-section';
+import { SkillsSection } from './sections/skills-section';
 
 export default function HomePage() {
   return (
