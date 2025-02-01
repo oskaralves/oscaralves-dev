@@ -20,7 +20,7 @@ type AppContextProps = {
 };
 
 const initialContext: AppContextProps = {
-  sidebarExpanded: true,
+  sidebarExpanded: false,
   handleToggleSidebar: () => undefined,
   activeSection: 'home',
   handleMenuClick: () => undefined,
