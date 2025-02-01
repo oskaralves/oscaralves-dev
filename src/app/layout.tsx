@@ -9,7 +9,6 @@ import { getDictionary } from '@/dictionaries';
 import { Locale } from '@/types/locale';
 import { getLocale } from '@/utils/locale';
 import { Analytics } from '@vercel/analytics/react';
-import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import { ThemeProvider } from '../../theme/ThemeProvider';
 import { getSidebarExtendedAction } from '../actions/sidebarExtendedAction';
@@ -21,12 +20,6 @@ const montserratSans = Montserrat({
   subsets: ['latin'],
   weight: ['100', '300', '400', '500', '700'],
 });
-
-export const metadata: Metadata = {
-  title: APP_TITLE,
-  description:
-    'Senior Software Engineer | Full Stack Specialist in React, React Native & Node.js | UI/UX',
-};
 
 export default async function RootLayout({
   children,
