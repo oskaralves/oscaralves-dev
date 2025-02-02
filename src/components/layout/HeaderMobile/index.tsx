@@ -58,7 +58,7 @@ export const SidebarMobile = () => {
           className="absolute inset-0 right-0 h-screen w-full bg-neutral-50 dark:bg-neutral-800"
           variants={sidebar}
         />
-        <motion.ul
+        <motion.div
           variants={variants}
           className={cn(
             'relative flex h-full w-full flex-col gap-3 px-10 py-16',
@@ -72,7 +72,7 @@ export const SidebarMobile = () => {
               </motion.div>
             );
           })}
-        </motion.ul>
+        </motion.div>
         <MenuToggle toggleOpen={toggleOpen} />
       </motion.nav>
     </div>
