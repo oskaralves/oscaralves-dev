@@ -52,7 +52,7 @@
     "COMPANY": "Bitbeer",
     "ROLE": "Co-Fundador / Designer UX/UI e Desenvolvedor Full Stack Sênior",
     "START_DATE": "MAI/2018",
-    "END_DATE": "OUT/2020",
+    "END_DATE": "JAN/2021",
     "DESCRIPTION": [
       "Desenvolvi e gerenciei a criação de uma plataforma SaaS inovadora para a venda de cervejas artesanais online, integrando sistemas completos para fornecedores e consumidores, tanto em dispositivos móveis quanto na web. A solução incluiu um aplicativo mobile para clientes e outro para lojistas, ambos desenvolvidos com Ionic 4 e Angular +5, além de ferramentas web para gestão de pedidos e administração da plataforma, criadas com Angular +5 e Material Design. Também projetei e implementei o site institucional da Bitbeer, utilizando HTML, CSS e JavaScript, criando uma landing page funcional e atrativa.",
       "A plataforma foi estruturada para oferecer funcionalidades como catálogo de produtos, localização de estabelecimentos mais próximos, compra de produtos com integração de login via Facebook e Google Account, controle de abertura e fechamento de lojas, avaliação de produtos e estabelecimentos, aplicação de cupons de desconto e gestão de meios de pagamento, produtos e cobrança de taxas.",
