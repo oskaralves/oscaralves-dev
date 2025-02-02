@@ -1,28 +1,26 @@
 {
   "MERCADO_DIFERENTE": {
     "COMPANY": "Mercado Diferente",
-    "ROLE": "Senior Front End Software Engineer",
+    "ROLE": "Senior Front-End Software Engineer",
     "START_DATE": "JUN/2022",
     "END_DATE": "SEP/2024",
     "DESCRIPTION": [
-      "I was responsible for creating the mobile app in React Native, from the initial architecture to the implementation of pixel-perfect functionalities and interfaces aligned with the design in Figma.",
-      "During development, I integrated the app with various modern tools, including Firebase Analytics, OneSignal, Bugsnag, and AppsFlyer, as well as configuring automated build and deployment for Google Play and the App Store.",
-      "I worked on the company's design system, developed in ReactJS with Styled Components and documented in Storybook, ensuring visual consistency and agility in development.",
-      "On the web frontend, I refactored critical pages such as checkout and landing pages, integrating analytics tools and optimizing performance for better results on Google PageSpeed.",
-      "Beyond technical activities, I collaborated on requirements analysis, participated in product meetings, and assisted in strategic sprint planning, prioritizing performance, scalability, and user experience."
+      "I worked as a senior front-end developer, actively participating in the creation of the company's design system, developed in ReactJS with Styled Components and documented in Storybook. This design system was fundamental in standardizing and improving the visual communication of web projects, ensuring consistency between screens and greater agility in developing new components.",
+      "I was responsible for creating the mobile app in React Native (Expo), from the initial architecture to the implementation of functionalities and pixel-perfect interfaces aligned with the design in Figma. During development, I integrated the app with various modern tools, including Firebase Analytics for data analysis, OneSignal for push notifications and in-app messages, Bugsnag for error monitoring, and AppsFlyer for campaign management and user data collection. I also configured the build and automated deployment of the app, enabling fast and efficient releases on Google Play and the App Store.",
+      "On the web frontend, I refactored the structure of critical pages such as checkout and landing pages, integrating analytics tools like Google Analytics and optimizing performance to achieve better results on Google PageSpeed. I also developed a Node.js script to automate image optimization during build, resulting in a 95% reduction in operational costs for the platform's Image Optimization.",
+      "Beyond technical activities, I collaborated on requirements analysis, participated in product meetings, and contributed to the planning and execution of sprints, aligning deliveries with the business's strategic objectives. My work focused on best development practices, prioritizing performance, scalability, and an excellent user experience."
     ]
   },
   "ZESTT": {
     "COMPANY": "Zestt",
-    "ROLE": "Senior Front End Developer",
+    "ROLE": "Senior Front-End Developer",
     "START_DATE": "JAN/2021",
     "END_DATE": "OCT/2021",
     "DESCRIPTION": [
-      "Developed interface solutions using React, HTML, CSS, and Webpack, ensuring consistency, responsiveness, and performance.",
-      "Implemented a microfrontend architecture in Webpack, enabling modular and independent updates within the system.",
-      "Contributed to the company's design system and implemented improvements in Zestt PDV, Zestt BackOffice, and Zestt Clinic products.",
-      "In Zestt Clinic, integrated the Twilio solution to enable video calls between doctors and patients, creating reusable components for telemedicine and call centers.",
-      "My role included technical consulting in product, quality, and UX, as well as strategic alignment between frontend and backend teams."
+      "I developed interface solutions using React, HTML, CSS, and Webpack, ensuring consistency, responsiveness, and performance across all projects. I carried out refactoring and bug fixes in deprecated Webpack libraries, standardizing projects and optimizing the bundle for better performance.",
+      "I significantly contributed to the evolution of the company's design system, implementing logic improvements and interfaces in the components used in digital products such as Zestt PDV (Offline and Online), Zestt BackOffice, and Zestt Clinic. I worked on continuous improvements that made the design system more scalable and adaptable to product needs.",
+      "At Zestt Clinic, I integrated the Twilio solution to enable video calls between doctors and patients, facilitating telemedicine consultations. Additionally, I created complete and robust React components for video calls, designed to be reused in other company products, including call center systems under development.",
+      "My work also included technical consulting in product development, quality, and UX, proposing improvements aligned with market demands and user expectations. I contributed to the technical alignment between front-end and back-end teams, ensuring efficiency in development processes."
     ]
   },
   "NEURALTRONIC": {
@@ -31,9 +29,9 @@
     "START_DATE": "MAY/2019",
     "END_DATE": "JAN/2021",
     "DESCRIPTION": [
-      "Developed advanced solutions for the administrative panel of the NAIA project, an intelligent vest for the industry. Implemented layouts and interfaces using Liquid and .NET Core, creating a flexible and dynamic structure.",
-      "Developed a workflow customization system, allowing dynamic configuration of functionalities without code modifications.",
-      "Integrated Google Cloud Platform's Speech-to-Text services, enabling operators to interact with the system via voice commands.",
+      "Developed advanced solutions for the NAIA project’s administrative panel, a smart vest designed for industrial use. Implemented layouts and interfaces using Liquid and .NET Core, creating a flexible and dynamic structure.",
+      "Built a workflow customization system, enabling dynamic feature configuration without requiring code modifications.",
+      "Integrated Google Cloud Platform's Speech-to-Text services, allowing operators to interact with the system through voice commands.",
       "Optimized the modular architecture of the panel, ensuring scalability for new features."
     ]
   },
@@ -44,10 +42,10 @@
     "END_DATE": "JAN/2021",
     "DESCRIPTION": [
       "Conducted requirements gathering and full-stack development using React, TypeScript, Node.js, MongoDB, and RabbitMQ.",
-      "Created prototypes and layouts, ensuring responsive interfaces aligned with user needs.",
-      "Worked on developing the Maestro system for Lojas Americanas, managing online orders for fast delivery.",
-      "Implemented the order management dashboard and courier integration, ensuring operational efficiency.",
-      "Responsible for interface design and user experience, ensuring fluidity and usability."
+      "Worked on prototype and layout creation, ensuring responsive interfaces aligned with user needs.",
+      "Developed the Maestro system for Lojas Americanas, managing online orders for fast delivery.",
+      "Implemented the order management dashboard and delivery integration, ensuring operational efficiency.",
+      "Was responsible for interface design and user experience in the project, ensuring fluidity and usability."
     ]
   },
   "BITBEER": {
@@ -56,11 +54,10 @@
     "START_DATE": "MAY/2018",
     "END_DATE": "OCT/2020",
     "DESCRIPTION": [
-      "Developed a SaaS platform for online craft beer sales, including mobile apps and web management tools.",
-      "The backend was structured in C# .NET Core with ElasticSearch, ensuring high performance and scalability.",
-      "Implemented product catalogs, integration with delivery services, discount coupons, and payment systems.",
-      "Led the company's visual identity creation, developing graphic materials and platform icons.",
-      "Developed the management system for store owners and administrators using Angular and React, combining design and programming."
+      "I developed and managed the creation of an innovative SaaS platform for online craft beer sales, integrating complete systems for suppliers and consumers on both mobile and web platforms. The solution included a mobile app for customers and another for store owners, both built with Ionic 4 and Angular +5, along with web tools for order management and platform administration, developed using Angular +5 and Material Design. I also designed and implemented the Bitbeer institutional website, using HTML, CSS, and JavaScript to create a functional and attractive landing page.",
+      "The platform was structured to provide features such as product catalog, location of nearby establishments, product purchasing with Facebook and Google Account login integration, store opening and closing control, product and establishment reviews, discount coupon application, and payment methods, product, and fee management.",
+      "In addition to leading technical development, I was responsible for creating the entire visual identity of the company. I designed graphic elements, system and product icons, and marketing campaign materials, including promotional and advertising artwork, ensuring cohesive and engaging visual communication across all customer touchpoints.",
+      "My role spanned from the solution’s conception and architecture to the implementation of complex logic, prioritizing performance, scalability, and an outstanding user experience. This project was a milestone in my professional journey, solidifying my ability to combine technical, creative, and strategic skills to deliver an innovative and successful product."
     ]
   },
   "EZTECH_PMO": {
@@ -69,11 +66,11 @@
     "START_DATE": "OCT/2019",
     "END_DATE": "MAR/2020",
     "DESCRIPTION": [
-      "Worked as a PMO, managing a team of 3 mid-level developers and 1 intern, ensuring strategic alignment between technology and organizational objectives.",
+      "Worked as a PMO, managing a team of 3 mid-level developers and 1 intern, ensuring strategic alignment between technology and organizational goals.",
       "Coordinated efforts and resources for efficient project execution, prioritizing balanced allocation among company demands.",
       "Prepared and presented detailed reports to the board, providing strategic insights for decision-making.",
-      "Worked on technical development using C# (.NET and .NET Core), PHP, JavaScript, and Ionic 3/4, supporting the team to ensure deliverables.",
-      "Managed the corporate mobile app for fuel station managers, ensuring its evolution with critical functionalities."
+      "Worked on technical development in C# (.NET and .NET Core), PHP, JavaScript, and Ionic 3/4, supporting the team to ensure successful deliveries.",
+      "Managed the continuity of the corporate mobile app for gas station network managers, ensuring its evolution with critical functionalities."
     ]
   },
   "EZTECH_SENIOR": {
@@ -82,10 +79,10 @@
     "START_DATE": "JAN/2019",
     "END_DATE": "SEP/2019",
     "DESCRIPTION": [
-      "Led the development of solutions using C# (.NET and .NET Core), PHP, and JavaScript.",
-      "Supervised and mentored junior developers, ensuring best practices and technical growth of the team.",
-      "Implemented integrations with external APIs and created responsive interfaces for various devices.",
-      "Acted as a technical reference in critical projects, ensuring timely and high-quality deliveries."
+      "I conducted requirements gathering and actively participated in the design and development of the Eztech HeadOffice system, an online solution for managing gas stations and fuel networks. This system was designed to meet the industry's complex needs, offering advanced features such as tank control, fuel pump monitoring, and fleet management for company vehicles.",
+      "During the project, I worked on both front-end and back-end development, using technologies such as C# (.NET and .NET Core), PHP, JavaScript, and Ionic 3 with Angular 2+, delivering robust and scalable solutions. I collaborated on API integrations and the development of responsive interfaces, ensuring high performance and maintainability of the system.",
+      "One of the most significant achievements was the adoption of the system by Carrefour, which implemented the solution across all its gas stations, demonstrating its impact and reliability. Additionally, I worked on multiple parallel projects, applying my development expertise to meet internal and external demands while aligning with the organization's strategic objectives.",
+      "My role also included collaboration in the creation of advertising materials and visual assets, integrating design and development skills to support institutional campaigns and enhance the company's communication."
     ]
   },
   "EZTECH_PLENO": {
@@ -95,9 +92,9 @@
     "END_DATE": "DEC/2018",
     "DESCRIPTION": [
       "Developed robust solutions in C# (.NET and .NET Core), PHP, and JavaScript.",
-      "Participated in all phases of the software lifecycle, from analysis to deployment.",
-      "Worked on creating responsive interfaces and integrating third-party APIs.",
-      "Developed institutional graphic materials, contributing to the company's visual design."
+      "Participated in all stages of the software development lifecycle, from analysis to deployment.",
+      "Worked on the creation of responsive interfaces and third-party API integrations.",
+      "Designed institutional graphic materials, contributing to the company's visual identity."
     ]
   },
   "FATOR_CRIATIVO": {
@@ -106,10 +103,10 @@
     "START_DATE": "OCT/2015",
     "END_DATE": "APR/2016",
     "DESCRIPTION": [
-      "Developed front-end institutional websites using HTML, CSS, JavaScript, and PHP, creating interactive and functional visual experiences.",
-      "Participated in the entire creative and technical process, from conception to project delivery, ensuring high visual quality and usability.",
-      "Designed complete visual identities, including logos, business cards, folders, administrative stationery, and marketing materials.",
-      "Worked on branding and marketing design materials, aligning visual concepts with business strategies."
+      "Worked on front-end development for institutional websites using HTML, CSS, JavaScript, and PHP, creating interactive and functional visual experiences.",
+      "Participated in the entire creative and technical process, from concept to project delivery, ensuring high visual quality and usability.",
+      "Designed complete visual identities, including logos, business cards, brochures, administrative stationery, and advertising materials for institutional campaigns.",
+      "Worked on graphic design materials to strengthen branding and marketing strategies for clients, aligning visual concepts with business strategies."
     ]
   },
   "IVE_STUDIO": {
@@ -118,35 +115,35 @@
     "START_DATE": "JAN/2012",
     "END_DATE": "SEP/2015",
     "DESCRIPTION": [
-      "I created the entire visual identity of the company, from brand definition to the development of digital interfaces and graphic materials.",
-      "I worked on client acquisition, financial management, project coordination, and leading multidisciplinary teams.",
+      "Created the entire visual identity of the company, from brand definition to the development of digital interfaces and graphic materials.",
+      "Worked on client prospecting, financial management, project management, and coordination of multidisciplinary teams.",
       "Managed design projects, creating visual identities, advertising materials, and digital interfaces for various clients.",
       "Led the development of websites, e-commerce platforms, and interactive games, applying innovation and high-impact design.",
-      "Developed a mobility platform focused on taxi cooperatives, enabling fleet management, request control, and GPS tracking."
+      "Developed an urban mobility platform focused on taxi cooperatives, enabling fleet management, request control, and GPS tracking."
     ]
   },
   "SEVEN_MEDIA": {
     "COMPANY": "Seven Computação Gráfica",
-    "ROLE": "Junior Systems Analyst / Graphic Designer",
+    "ROLE": "Graphic Designer / Junior Systems Analyst",
     "START_DATE": "SEP/2010",
     "END_DATE": "JUL/2011",
     "DESCRIPTION": [
-      "Designed and maintained layouts for websites and hotsites of the organization, along with graphic materials such as folders, magazines, and business cards.",
-      "Participated in developing the official school website and the Seven Game website, a division focused on game creation courses.",
-      "Developed the Seven Game website from scratch, designing layout, animations, and interactive features using Adobe Flash and ActionScript 3.0.",
-      "Implemented a gamification system where users could guess random button sequences to win prizes, increasing engagement on the website.",
-      "This project showcased my ability to combine creativity, interactivity, and technological innovation, strengthening the company's digital strategy."
+      "I was responsible for creating and maintaining website and microsite layouts for the organization, as well as producing graphic materials such as brochures, magazines, and business cards.",
+      "I participated in building the school's official website and developing the Seven Game website, a unit focused on game creation.",
+      "I developed the Seven Game website from scratch, designing the layout, animations, and interactive functionalities using Adobe Flash and ActionScript 3.0.",
+      "I implemented a gamification system where users could match random button sequences to win prizes, increasing website engagement.",
+      "This project highlighted my ability to combine creativity, interactivity, and technological innovation, strengthening the company's digital strategy."
     ]
   },
   "SEVEN_INTERNSHIP": {
     "COMPANY": "Seven Computação Gráfica",
-    "ROLE": "Web Development Intern",
+    "ROLE": "Web Development Internship",
     "START_DATE": "AUG/2010",
     "END_DATE": "SEP/2010",
     "DESCRIPTION": [
-      "Assisted students in understanding tools such as Photoshop, Illustrator, Flash, and Dreamweaver, reinforcing practical learning of course content.",
-      "Provided guidance and technical support for graphic and interactive projects, helping students translate theoretical concepts into real applications.",
-      "Collaborated on the development of 2D animations using Adobe Flash and programming with ActionScript 3.0.",
+      "Assisted students in understanding tools such as Photoshop, Illustrator, Flash, and Dreamweaver, reinforcing their practical learning experience.",
+      "Provided guidance and technical support in graphic and interactive projects, helping students transform theoretical concepts into real applications.",
+      "Collaborated in the development of 2D animations using Adobe Flash and programming with ActionScript 3.0.",
       "This experience allowed me to enhance my skills in design, interactive development, and technical communication."
     ]
   }

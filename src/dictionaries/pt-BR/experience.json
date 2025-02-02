@@ -5,11 +5,10 @@
     "START_DATE": "JUN/2022",
     "END_DATE": "SET/2024",
     "DESCRIPTION": [
-      "Fui responsável por criar o aplicativo mobile em React Native, desde a arquitetura inicial até a implementação de funcionalidades e interfaces pixel perfect alinhadas ao design no Figma.",
-      "Durante o desenvolvimento, integrei o app com diversas ferramentas modernas, incluindo Firebase Analytics, OneSignal, Bugsnag e AppsFlyer, além de configurar o build e deploy automatizado para Google Play e App Store.",
-      "Atuei na criação do design system da empresa, desenvolvido em ReactJS com Styled Components e documentado no Storybook, garantindo consistência visual e agilidade no desenvolvimento.",
-      "No frontend web, refatorei páginas críticas como checkout e landing pages, integrando ferramentas de análise e otimizando a performance para melhores resultados no Google PageSpeed.",
-      "Além das atividades técnicas, colaborei na análise de requisitos, participei de reuniões de produto e ajudei no planejamento estratégico das sprints, priorizando performance, escalabilidade e experiência do usuário."
+      "Atuei como desenvolvedor front-end sênior, participando ativamente da criação do design system da empresa, desenvolvido em ReactJS com Styled Components e disponibilizado e documentado no Storybook. Esse design system foi fundamental para padronizar e melhorar a comunicação visual dos projetos web, garantindo consistência entre telas e maior agilidade no desenvolvimento de novos componentes.",
+      "Fui responsável por criar o aplicativo mobile em React Native (Expo), desde a arquitetura inicial até a implementação de funcionalidades e interfaces pixel perfect alinhadas ao design no Figma. Durante o desenvolvimento, integrei o app com diversas ferramentas modernas, incluindo Firebase Analytics para análise de dados, OneSignal para push notifications e mensagens in-app, Bugsnag para monitoramento de erros, e AppsFlyer para controle de campanhas e coleta de dados de usuários. Configurei também o build e deploy automatizado do app, permitindo publicações rápidas e eficientes na Google Play e App Store.",
+      "No frontend web, refatorei a estrutura de páginas críticas como checkout e landing pages, integrando ferramentas de análise, como Google Analytics, e otimizando o desempenho para alcançar melhores resultados no Google PageSpeed. Desenvolvi ainda um script em Node.js para automatizar a otimização de imagens durante o build, resultando em uma redução de 95% nos custos operacionais do Image Optimization da plataforma.",
+      "Além das atividades técnicas, colaborei na análise de requisitos, participei de reuniões de produto e contribui para o planejamento e execução das sprints, alinhando as entregas aos objetivos estratégicos do negócio. Minha atuação focou nas melhores práticas de desenvolvimento, priorizando performance, escalabilidade e uma experiência de usuário de excelência."
     ]
   },
   "ZESTT": {
@@ -18,11 +17,10 @@
     "START_DATE": "JAN/2021",
     "END_DATE": "OUT/2021",
     "DESCRIPTION": [
-      "Desenvolvi soluções de interface utilizando React, HTML, CSS e Webpack, garantindo consistência, responsividade e desempenho.",
-      "Implementei uma arquitetura de microfrontend no Webpack, permitindo atualizações modulares e independentes dentro do sistema.",
-      "Contribuí para o design system da empresa e implementei melhorias nos produtos Zestt PDV, Zestt BackOffice e Zestt Clinic.",
-      "No Zestt Clinic, integrei a solução Twilio para habilitar vídeo chamadas entre médicos e pacientes, criando componentes reutilizáveis para telemedicina e call centers.",
-      "Minha atuação incluiu consultoria técnica em produto, qualidade e UX, além do alinhamento estratégico entre as equipes de front-end e back-end."
+      "Desenvolvi soluções de interface utilizando React, HTML, CSS e Webpack, garantindo consistência, responsividade e desempenho em todos os projetos. Realizei refatorações e correções de bugs em bibliotecas depreciadas do Webpack, padronizando os projetos e otimizando o bundle para maior performance.",
+      "Contribuí significativamente para a evolução do design system da empresa, implementando melhorias de lógica e interfaces nos componentes utilizados nos produtos digitais, como Zestt PDV (Offline e Online), Zestt BackOffice e Zestt Clinic. Trabalhei em melhorias contínuas que tornaram o design system mais escalável e adaptável às necessidades dos produtos.",
+      "No Zestt Clinic, integrei a solução Twilio para habilitar vídeo chamadas entre médicos e pacientes, permitindo consultas de telemedicina. Além disso, criei componentes completos e robustos em React voltados para vídeo chamadas, projetados para serem reutilizados em outros produtos da empresa, incluindo sistemas de call center em desenvolvimento.",
+      "Minha atuação incluiu também consultoria técnica em produto, qualidade e UX, propondo melhorias alinhadas às demandas de mercado e às expectativas dos usuários finais. Contribuí no direcionamento técnico entre as equipes de front-end e back-end, garantindo alinhamento e eficiência nos processos de desenvolvimento."
     ]
   },
   "NEURALTRONIC": {
@@ -56,11 +54,10 @@
     "START_DATE": "MAI/2018",
     "END_DATE": "OUT/2020",
     "DESCRIPTION": [
-      "Desenvolvi uma plataforma SaaS para venda de cervejas artesanais online, incluindo aplicativos mobile e ferramentas web para gestão.",
-      "O backend foi estruturado em C# .NET Core com ElasticSearch, garantindo alta performance e escalabilidade.",
-      "Implementei catálogo de produtos, integração com serviços de delivery, cupons de desconto e sistemas de pagamento.",
-      "Liderei a criação da identidade visual da empresa, desenvolvendo materiais gráficos e ícones para a plataforma.",
-      "Desenvolvi o sistema de gestão para lojistas e administradores utilizando Angular e React, unindo design e programação."
+      "Desenvolvi e gerenciei a criação de uma plataforma SaaS inovadora para a venda de cervejas artesanais online, integrando sistemas completos para fornecedores e consumidores, tanto em dispositivos móveis quanto na web. A solução incluiu um aplicativo mobile para clientes e outro para lojistas, ambos desenvolvidos com Ionic 4 e Angular +5, além de ferramentas web para gestão de pedidos e administração da plataforma, criadas com Angular +5 e Material Design. Também projetei e implementei o site institucional da Bitbeer, utilizando HTML, CSS e JavaScript, criando uma landing page funcional e atrativa.",
+      "A plataforma foi estruturada para oferecer funcionalidades como catálogo de produtos, localização de estabelecimentos mais próximos, compra de produtos com integração de login via Facebook e Google Account, controle de abertura e fechamento de lojas, avaliação de produtos e estabelecimentos, aplicação de cupons de desconto e gestão de meios de pagamento, produtos e cobrança de taxas.",
+      "Além de liderar o desenvolvimento técnico, fui responsável pela criação de toda a identidade visual da empresa. Criei elementos gráficos, ícones para sistemas e produtos, e materiais para campanhas de marketing, incluindo artes promocionais e publicitárias, garantindo uma comunicação visual coesa e atrativa em todos os pontos de contato com o público.",
+      "Minha atuação abrangeu desde a concepção e arquitetura da solução até a implementação de lógicas complexas, priorizando desempenho, escalabilidade e uma experiência do usuário de excelência. Esse projeto foi um marco na minha trajetória profissional, consolidando minha capacidade de unir habilidades técnicas, criativas e estratégicas para entregar um produto inovador e bem-sucedido."
     ]
   },
   "EZTECH_PMO": {
@@ -82,10 +79,10 @@
     "START_DATE": "JAN/2019",
     "END_DATE": "SET/2019",
     "DESCRIPTION": [
-      "Liderei o desenvolvimento de soluções utilizando C# (.NET e .NET Core), PHP e JavaScript.",
-      "Supervisionei e orientei desenvolvedores juniores, garantindo boas práticas e evolução técnica da equipe.",
-      "Implementei integrações de APIs externas e criei interfaces responsivas para diferentes dispositivos.",
-      "Fui referência técnica em projetos críticos, assegurando entregas dentro dos prazos e com alta qualidade."
+      "Realizei o levantamento de requisitos e participei ativamente na concepção e desenvolvimento do sistema Eztech HeadOffice, uma solução online para gestão de postos e redes de combustíveis. Esse sistema foi projetado para atender a necessidades complexas do setor, oferecendo funcionalidades avançadas como controle de tanques, monitoramento de bombas de abastecimento e gerenciamento de veículos vinculados a empresas.",
+      "Durante o projeto, trabalhei tanto no front-end quanto no back-end, utilizando tecnologias como C# (.NET e .NET Core), PHP, JavaScript e Ionic 3 com Angular 2+, entregando soluções robustas e escaláveis. Colaborei na integração de APIs e na criação de interfaces responsivas, garantindo alto desempenho e manutenibilidade do sistema.",
+      "Um dos maiores destaques foi a adesão da Rede Carrefour, que implementou a solução em todos os seus postos de combustíveis, demonstrando o impacto e a confiabilidade do sistema. Além disso, atuei em múltiplos projetos paralelos, aplicando minha expertise em desenvolvimento para atender às demandas internas e externas, sempre alinhado aos objetivos estratégicos da organização.",
+      "Minha atuação também incluiu colaboração na criação de peças publicitárias e materiais visuais, integrando habilidades de design e desenvolvimento para promover campanhas institucionais e aprimorar a comunicação da empresa."
     ]
   },
   "EZTECH_PLENO": {

@@ -1,0 +1,150 @@
+{
+  "MERCADO_DIFERENTE": {
+    "COMPANY": "Mercado Diferente",
+    "ROLE": "Ingeniero de Software Front-End Senior",
+    "START_DATE": "JUN/2022",
+    "END_DATE": "SEP/2024",
+    "DESCRIPTION": [
+      "Trabajé como desarrollador front-end senior, participando activamente en la creación del sistema de diseño de la empresa, desarrollado en ReactJS con Styled Components y documentado en Storybook. Este sistema de diseño fue fundamental para estandarizar y mejorar la comunicación visual de los proyectos web, garantizando coherencia entre pantallas y mayor agilidad en el desarrollo de nuevos componentes.",
+      "Fui responsable de la creación de la aplicación móvil en React Native (Expo), desde la arquitectura inicial hasta la implementación de funcionalidades e interfaces pixel-perfect alineadas con el diseño en Figma. Durante el desarrollo, integré la aplicación con diversas herramientas modernas, incluyendo Firebase Analytics para análisis de datos, OneSignal para notificaciones push y mensajes en la aplicación, Bugsnag para el monitoreo de errores y AppsFlyer para la gestión de campañas y la recopilación de datos de usuarios. También configuré la compilación y el despliegue automatizado de la aplicación, permitiendo publicaciones rápidas y eficientes en Google Play y la App Store.",
+      "En el frontend web, reestructuré la arquitectura de páginas críticas como el checkout y las landing pages, integrando herramientas de análisis como Google Analytics y optimizando el rendimiento para lograr mejores resultados en Google PageSpeed. Además, desarrollé un script en Node.js para automatizar la optimización de imágenes durante la compilación, lo que resultó en una reducción del 95% en los costos operativos de la optimización de imágenes de la plataforma.",
+      "Más allá de las actividades técnicas, colaboré en el análisis de requisitos, participé en reuniones de producto y contribuí a la planificación y ejecución de los sprints, alineando las entregas con los objetivos estratégicos del negocio. Mi trabajo se centró en las mejores prácticas de desarrollo, priorizando el rendimiento, la escalabilidad y una experiencia de usuario excepcional."
+    ]
+  },
+  "ZESTT": {
+    "COMPANY": "Zestt",
+    "ROLE": "Desarrollador Front-End Senior",
+    "START_DATE": "ENE/2021",
+    "END_DATE": "OCT/2021",
+    "DESCRIPTION": [
+      "Desarrollé soluciones de interfaz utilizando React, HTML, CSS y Webpack, garantizando consistencia, capacidad de respuesta y rendimiento en todos los proyectos. Realicé refactorización y correcciones de errores en bibliotecas obsoletas de Webpack, estandarizando los proyectos y optimizando el bundle para un mejor rendimiento.",
+      "Contribuí significativamente a la evolución del sistema de diseño de la empresa, implementando mejoras en la lógica e interfaces en los componentes utilizados en productos digitales como Zestt PDV (Offline y Online), Zestt BackOffice y Zestt Clinic. Trabajé en mejoras continuas que hicieron el sistema de diseño más escalable y adaptable a las necesidades de los productos.",
+      "En Zestt Clinic, integré la solución de Twilio para habilitar videollamadas entre médicos y pacientes, permitiendo consultas de telemedicina. Además, creé componentes completos y robustos en React para videollamadas, diseñados para ser reutilizados en otros productos de la empresa, incluidos sistemas de call center en desarrollo.",
+      "Mi trabajo también incluyó consultoría técnica en producto, calidad y UX, proponiendo mejoras alineadas con las demandas del mercado y las expectativas de los usuarios. Contribuí a la alineación técnica entre los equipos de front-end y back-end, garantizando eficiencia en los procesos de desarrollo."
+    ]
+  },
+  "NEURALTRONIC": {
+    "COMPANY": "Neuraltronic",
+    "ROLE": "Desarrollador Full Stack Senior",
+    "START_DATE": "MAY/2019",
+    "END_DATE": "ENE/2021",
+    "DESCRIPTION": [
+      "Desarrollé soluciones avanzadas para el panel administrativo del proyecto NAIA, un chaleco inteligente para la industria. Implementé diseños e interfaces utilizando Liquid y .NET Core, creando una estructura flexible y dinámica.",
+      "Desarrollé un sistema de personalización de flujos de trabajo, permitiendo la configuración dinámica de funcionalidades sin necesidad de modificar el código.",
+      "Integré los servicios de Speech-to-Text de Google Cloud Platform, permitiendo que los operadores interactúen con el sistema mediante comandos de voz.",
+      "Optimizé la arquitectura modular del panel, asegurando escalabilidad para nuevas funcionalidades."
+    ]
+  },
+  "EFABRIKA": {
+    "COMPANY": "eFabrika Brasil",
+    "ROLE": "Desarrollador Full Stack",
+    "START_DATE": "MAR/2020",
+    "END_DATE": "ENE/2021",
+    "DESCRIPTION": [
+      "Realicé el levantamiento de requisitos y el desarrollo full-stack utilizando React, TypeScript, Node.js, MongoDB y RabbitMQ.",
+      "Trabajé en la creación de prototipos y diseños, garantizando interfaces responsivas y alineadas con las necesidades del usuario.",
+      "Desarrollé el sistema Maestro para Lojas Americanas, gestionando pedidos en línea para entrega rápida.",
+      "Implementé el panel de gestión de pedidos e integración de repartidores, asegurando eficiencia operativa.",
+      "Fui responsable del diseño de la interfaz y la experiencia del usuario en el proyecto, garantizando fluidez y usabilidad."
+    ]
+  },
+  "BITBEER": {
+    "COMPANY": "Bitbeer",
+    "ROLE": "Co-Fundador / Diseñador UX/UI y Desarrollador Full Stack Senior",
+    "START_DATE": "MAY/2018",
+    "END_DATE": "OCT/2020",
+    "DESCRIPTION": [
+      "Desarrollé y gestioné la creación de una innovadora plataforma SaaS para la venta de cervezas artesanales en línea, integrando sistemas completos para proveedores y consumidores, tanto en dispositivos móviles como en la web. La solución incluyó una aplicación móvil para clientes y otra para comerciantes, ambas desarrolladas con Ionic 4 y Angular +5, junto con herramientas web para la gestión de pedidos y la administración de la plataforma, creadas con Angular +5 y Material Design. También diseñé e implementé el sitio institucional de Bitbeer, utilizando HTML, CSS y JavaScript para crear una landing page funcional y atractiva.",
+      "La plataforma fue estructurada para ofrecer funcionalidades como catálogo de productos, localización de establecimientos cercanos, compra de productos con integración de inicio de sesión de Facebook y Google Account, control de apertura y cierre de tiendas, evaluación de productos y establecimientos, aplicación de cupones de descuento y gestión de métodos de pago, productos y cobro de tasas.",
+      "Además de liderar el desarrollo técnico, fui responsable de crear toda la identidad visual de la empresa. Diseñé elementos gráficos, iconos para sistemas y productos, y materiales para campañas de marketing, incluyendo artes promocionales y publicitarias, asegurando una comunicación visual coherente y atractiva en todos los puntos de contacto con el público.",
+      "Mi trabajo abarcó desde la concepción y arquitectura de la solución hasta la implementación de lógica compleja, priorizando el rendimiento, la escalabilidad y una experiencia de usuario excepcional. Este proyecto marcó un hito en mi trayectoria profesional, consolidando mi capacidad para combinar habilidades técnicas, creativas y estratégicas para entregar un producto innovador y exitoso."
+    ]
+  },
+  "EZTECH_PMO": {
+    "COMPANY": "Eztech Tecnologia",
+    "ROLE": "PMO / Analista de Sistemas Senior",
+    "START_DATE": "OCT/2019",
+    "END_DATE": "MAR/2020",
+    "DESCRIPTION": [
+      "Trabajé como PMO, gestionando un equipo de 3 desarrolladores de nivel intermedio y 1 pasante, asegurando la alineación estratégica entre tecnología y objetivos organizacionales.",
+      "Coordiné esfuerzos y recursos para la ejecución eficiente de los proyectos, priorizando la asignación equilibrada entre las demandas de la empresa.",
+      "Elaboré y presenté informes detallados a la dirección, proporcionando información estratégica para la toma de decisiones.",
+      "Participé en el desarrollo técnico en C# (.NET y .NET Core), PHP, JavaScript e Ionic 3/4, brindando apoyo al equipo para garantizar las entregas.",
+      "Gestioné la continuidad de la aplicación móvil corporativa para gerentes de redes de estaciones de servicio, asegurando su evolución con funcionalidades críticas."
+    ]
+  },
+  "EZTECH_SENIOR": {
+    "COMPANY": "Eztech Tecnologia",
+    "ROLE": "Analista de Sistemas Senior",
+    "START_DATE": "ENE/2019",
+    "END_DATE": "SEP/2019",
+    "DESCRIPTION": [
+      "Realicé el levantamiento de requisitos y participé activamente en el diseño y desarrollo del sistema Eztech HeadOffice, una solución en línea para la gestión de estaciones de servicio y redes de combustibles. Este sistema fue diseñado para satisfacer las necesidades complejas del sector, ofreciendo funcionalidades avanzadas como control de tanques, monitoreo de surtidores de combustible y gestión de flotas para empresas.",
+      "Durante el proyecto, trabajé tanto en el desarrollo front-end como en el back-end, utilizando tecnologías como C# (.NET y .NET Core), PHP, JavaScript e Ionic 3 con Angular 2+, entregando soluciones robustas y escalables. Colaboré en la integración de APIs y en la creación de interfaces responsivas, asegurando un alto rendimiento y facilidad de mantenimiento del sistema.",
+      "Uno de los mayores logros fue la adopción del sistema por parte de la Red Carrefour, que implementó la solución en todas sus estaciones de servicio, demostrando su impacto y confiabilidad. Además, trabajé en múltiples proyectos paralelos, aplicando mi experiencia en desarrollo para atender las demandas internas y externas, siempre alineado con los objetivos estratégicos de la organización.",
+      "Mi trabajo también incluyó colaboración en la creación de materiales publicitarios y visuales, integrando habilidades de diseño y desarrollo para apoyar campañas institucionales y mejorar la comunicación de la empresa."
+    ]
+  },
+  "EZTECH_PLENO": {
+    "COMPANY": "Eztech Tecnologia",
+    "ROLE": "Analista de Sistemas Semi-Senior",
+    "START_DATE": "ABR/2016",
+    "END_DATE": "DIC/2018",
+    "DESCRIPTION": [
+      "Desarrollé soluciones robustas en C# (.NET y .NET Core), PHP y JavaScript.",
+      "Participé en todas las etapas del ciclo de vida del software, desde el análisis hasta la implementación.",
+      "Trabajé en la creación de interfaces responsivas y en la integración con APIs de terceros.",
+      "Desarrollé materiales gráficos institucionales, contribuyendo al diseño visual de la empresa."
+    ]
+  },
+  "FATOR_CRIATIVO": {
+    "COMPANY": "Fator Criativo",
+    "ROLE": "Web Designer / Diseñador Gráfico",
+    "START_DATE": "OCT/2015",
+    "END_DATE": "ABR/2016",
+    "DESCRIPTION": [
+      "Trabajé en el desarrollo front-end de sitios web institucionales utilizando HTML, CSS, JavaScript y PHP, creando experiencias visuales interactivas y funcionales.",
+      "Participé en todo el proceso creativo y técnico, desde la concepción hasta la entrega de los proyectos, asegurando alta calidad visual y usabilidad.",
+      "Creé identidades visuales completas, incluyendo logotipos, tarjetas de presentación, folletos, papelería administrativa y materiales publicitarios para campañas institucionales.",
+      "Trabajé en el diseño de materiales gráficos para reforzar el branding y marketing de los clientes, alineando conceptos visuales con estrategias empresariales."
+    ]
+  },
+  "IVE_STUDIO": {
+    "COMPANY": "IVE Studio",
+    "ROLE": "Co-Fundador / Jefe de Creación y Diseñador / Web Designer",
+    "START_DATE": "ENE/2012",
+    "END_DATE": "SEP/2015",
+    "DESCRIPTION": [
+      "Creé toda la identidad visual de la empresa, desde la definición de la marca hasta el desarrollo de interfaces digitales y materiales gráficos.",
+      "Trabajé en la prospección de clientes, gestión financiera, gestión de proyectos y coordinación de equipos multidisciplinarios.",
+      "Gestioné proyectos de diseño, creando identidades visuales, materiales publicitarios e interfaces digitales para diversos clientes.",
+      "Lideré el desarrollo de sitios web, plataformas de comercio electrónico y juegos interactivos, aplicando innovación y diseño de alto impacto.",
+      "Desarrollé una plataforma de movilidad urbana enfocada en cooperativas de taxis, permitiendo la gestión de flotas, control de solicitudes y seguimiento por GPS."
+    ]
+  },
+  "SEVEN_MEDIA": {
+    "COMPANY": "Seven Computação Gráfica",
+    "ROLE": "Diseñador Gráfico / Analista de Sistemas Junior",
+    "START_DATE": "SEP/2010",
+    "END_DATE": "JUL/2011",
+    "DESCRIPTION": [
+      "Fui responsable de la creación y mantenimiento de diseños de sitios web y micrositios para la organización, además de la producción de materiales gráficos como folletos, revistas y tarjetas de presentación.",
+      "Participé en la construcción del sitio web oficial de la escuela y en el desarrollo del sitio web de Seven Game, una unidad enfocada en la creación de juegos.",
+      "Desarrollé el sitio web de Seven Game desde cero, diseñando la interfaz, animaciones y funcionalidades interactivas utilizando Adobe Flash y ActionScript 3.0.",
+      "Implementé un sistema de gamificación donde los usuarios podían acertar secuencias aleatorias de botones para ganar premios, aumentando el engagement del sitio web.",
+      "Este proyecto destacó mi capacidad para combinar creatividad, interactividad e innovación tecnológica, fortaleciendo la estrategia digital de la empresa."
+    ]
+  },
+  "SEVEN_INTERNSHIP": {
+    "COMPANY": "Seven Computação Gráfica",
+    "ROLE": "Pasantía en Desarrollo Web",
+    "START_DATE": "AGO/2010",
+    "END_DATE": "SEP/2010",
+    "DESCRIPTION": [
+      "Asistí a los estudiantes en la comprensión de herramientas como Photoshop, Illustrator, Flash y Dreamweaver, reforzando su aprendizaje práctico.",
+      "Brindé orientación y soporte técnico en proyectos gráficos e interactivos, ayudando a los estudiantes a transformar conceptos teóricos en aplicaciones reales.",
+      "Colaboré en el desarrollo de animaciones 2D utilizando Adobe Flash y programación con ActionScript 3.0.",
+      "Esta experiencia me permitió mejorar mis habilidades en diseño, desarrollo interactivo y comunicación técnica."
+    ]
+  }
+}

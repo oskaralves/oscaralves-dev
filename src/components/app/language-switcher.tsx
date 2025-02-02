@@ -14,47 +14,54 @@ export const LanguageSwitcher = () => {
 
   const CurrentFlagIcon = ({
     locale,
-    size = 38,
+    size = 32,
   }: {
     locale: Locale;
     size?: number;
   }) => {
-    switch (locale) {
-      case 'pt-BR':
-        return (
-          <Image
-            src="/svgs/flags/pt-br.svg"
-            alt="pt-BR"
-            width={size}
-            height={size}
-            unoptimized
-          />
-        );
-      case 'en-US':
-        return (
-          <Image
-            src="/svgs/flags/en-us.svg"
-            alt="en-US"
-            width={size}
-            height={size}
-            unoptimized
-          />
-        );
-      default:
-        return null;
-    }
+    const languages = {
+      'pt-BR': (
+        <Image
+          src="/svgs/flags/pt-br.svg"
+          alt="pt-BR"
+          width={size}
+          height={size}
+          unoptimized
+        />
+      ),
+      'en-US': (
+        <Image
+          src="/svgs/flags/en-us.svg"
+          alt="en-US"
+          width={size}
+          height={size}
+          unoptimized
+        />
+      ),
+      'es-ES': (
+        <Image
+          src="/svgs/flags/es-es.svg"
+          alt="es-ES"
+          width={size}
+          height={size}
+          unoptimized
+        />
+      ),
+    };
+    return languages[locale];
   };
 
   return (
     <div className="relative">
-      {/* Botão que ativa o dropdown */}
       <Button
         variant="ghost"
         isLoading={isPending}
         onClick={toggleDropdown}
         className="relative flex h-10 min-w-10 flex-row items-center justify-center border-transparent p-0 hover:border hover:bg-neutral-500/20"
       >
-        <CurrentFlagIcon locale={locale} />
+        <div className="w-6 overflow-hidden rounded">
+          <CurrentFlagIcon locale={locale} />
+        </div>
       </Button>
 
       {/* Dropdown de opções */}
@@ -65,9 +72,11 @@ export const LanguageSwitcher = () => {
               handleSetLocale('pt-BR');
               setIsOpen(false);
             }}
-            className="flex w-full items-center rounded px-2 py-1 text-left transition hover:bg-foreground/10"
+            className="flex w-full items-center rounded p-2 text-left transition hover:bg-foreground/10"
           >
-            <CurrentFlagIcon locale="pt-BR" size={46} />
+            <div className="w-6 overflow-hidden rounded">
+              <CurrentFlagIcon locale="pt-BR" />
+            </div>
             <span className="ml-2">Português (BR)</span>
           </button>
           <button
@@ -75,10 +84,24 @@ export const LanguageSwitcher = () => {
               handleSetLocale('en-US');
               setIsOpen(false);
             }}
-            className="flex w-full items-center rounded px-2 py-1 text-left transition hover:bg-foreground/10"
+            className="flex w-full items-center rounded p-2 text-left transition hover:bg-foreground/10"
           >
-            <CurrentFlagIcon locale="en-US" size={46} />
+            <div className="w-6 overflow-hidden rounded">
+              <CurrentFlagIcon locale="en-US" />
+            </div>
             <span className="ml-2">English (US)</span>
+          </button>
+          <button
+            onClick={() => {
+              handleSetLocale('es-ES');
+              setIsOpen(false);
+            }}
+            className="flex w-full items-center rounded p-2 text-left transition hover:bg-foreground/10"
+          >
+            <div className="w-6 overflow-hidden rounded">
+              <CurrentFlagIcon locale="es-ES" />
+            </div>
+            <span className="ml-2">Español (ES)</span>
           </button>
         </div>
       )}

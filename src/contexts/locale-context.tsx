@@ -8,6 +8,7 @@ import { Country } from 'react-phone-number-input';
 export const countries: Record<Locale, Country> = {
   'pt-BR': 'BR',
   'en-US': 'US',
+  'es-ES': 'ES',
 };
 
 type LocaleContextProps = {

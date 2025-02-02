@@ -1,0 +1,46 @@
+{
+  "HOME": "Inicio",
+  "ABOUT": "Sobre mí",
+  "SKILLS": "Habilidades",
+  "EXPERIENCES": "Experiencias",
+  "PROJECTS": "Proyectos",
+  "CONTACT": "Contacto",
+  "HOME_PAGE": {
+    "HELLO": "Hola, mi nombre es",
+    "SOFTWARE_ENGINEER_FULLSTACK": "Soy Ingeniero de Software Full Stack",
+    "SOFTWARE_ENGINEER": "Soy Ingeniero de Software",
+    "SOFTWARE_ENGINEER_FRONTEND": "Soy Ingeniero de Software Front End",
+    "SOFTWARE_ENGINEER_BACKEND": "Soy Ingeniero de Software Back End",
+    "I_AM": "Soy",
+    "UI_UX_DESIGNER": "Soy Diseñador UI & UX"
+  },
+  "FEATURES_CARD": {
+    "TEXT_1": "Años de experiencia",
+    "TEXT_2": "Creativo, responsable, rápido y lleno de energía.",
+    "TEXT_3": "Estratégico y apasionado por la tecnología."
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "Sobre mí",
+    "PARAGRAPH_1": "Soy un Ingeniero de Software Full Stack con más de 15 años de experiencia en desarrollo de software. Mi carrera se ha caracterizado por la combinación de habilidades técnicas, un enfoque estratégico en diseño y una comprensión profunda del negocio, lo que me permite crear soluciones tecnológicas de alto rendimiento e impacto.",
+    "PARAGRAPH_2": "En 2012, cofundé IVEStudio (Inside the Visual Experiences), donde trabajé como director creativo, diseñador y desarrollador frontend. Uno de los productos más relevantes de la empresa fue el desarrollo de una plataforma móvil y web que conectaba pasajeros con taxistas, ofreciendo gestión administrativa y financiera para cooperativas, compitiendo con empresas como Taxibeat y EasyTaxi en Río de Janeiro.",
+    "PARAGRAPH_3": "En 2018, cofundé Bitbeer, una plataforma SaaS enfocada en el mercado de cervezas artesanales. Participé en todas las etapas del desarrollo, liderando la creación de una aplicación móvil para clientes y comerciantes, desarrollada con Ionic y Angular, así como un panel administrativo para la gestión de pedidos y operaciones, construido con Angular, C# .NET Core, ElasticSearch y PostgreSQL. La plataforma fue diseñada para ser funcional y escalable, incorporando características avanzadas como un catálogo de productos detallado que se correlacionaba con las preferencias de cada usuario, integración con servicios de entrega, un sistema de cupones de descuento y un módulo de pagos.",
+    "PARAGRAPH_4": "Entre 2021 y 2024, perfeccioné mis habilidades en tecnologías modernas y desarrollé una gran autonomía en la gestión de proyectos. Tengo una gran facilidad para aprender y siempre estoy mejorando, con el objetivo de crear soluciones que impacten positivamente en los negocios y las personas."
+  },
+  "SKILLS_PAGE": {
+    "TITLE": "Habilidades",
+    "PARAGRAPH_1": "A lo largo de mi carrera, he desarrollado experiencia en diversos lenguajes de programación, frameworks, bibliotecas y herramientas que me permiten construir soluciones modernas y eficientes. Ya sea en desarrollo frontend, backend o móvil, siempre me enfoco en utilizar las mejores prácticas y tecnologías para ofrecer productos de alta calidad e impacto.",
+    "DOMAIN_LEVEL": "Nivel de dominio"
+  },
+  "EXPERIENCES_PAGE": {
+    "TITLE": "Experiencias",
+    "PARAGRAPH_1": "Mi trayectoria profesional está definida por diversas experiencias que abarcan el desarrollo de software, el diseño y el liderazgo técnico. En cada oportunidad, contribuí con soluciones innovadoras, enfrenté desafíos únicos y aprendí nuevas tecnologías. Estas experiencias han moldeado mi carrera y reforzado mi pasión por crear impacto a través de mi trabajo."
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "Contacto",
+    "SUBTITLE": "Ponte en contacto",
+    "PARAGRAPH_1": "¡No dudes en contactarme!",
+    "EMAIL": "Correo electrónico",
+    "LINKEDIN": "LinkedIn",
+    "GITHUB": "Github"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "REQUIRED_FIELD": "El campo :field es obligatorio",
+  "MIN_LENGTH": "El campo :field debe tener al menos :min caracteres",
+  "MAX_LENGTH": "El campo :field debe tener como máximo :max caracteres",
+  "EMAIL_INVALID": "Correo electrónico no válido"
+}
