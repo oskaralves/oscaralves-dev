@@ -3,10 +3,9 @@
 import { LanguageSwitcher } from '@/components/app/language-switcher';
 import { ThemeButton } from '@/components/app/theme-button';
 import { Button } from '@/components/ui/button';
-import { menuItemIconProps } from '@/constants';
 import { useAppContext } from '@/contexts/AppContext';
 import { cn } from '@/lib/utils';
-import { ArrowRight03Icon, Menu09Icon } from 'hugeicons-react';
+import { Menu09Icon } from 'hugeicons-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SidebarMobile } from '../HeaderMobile';
@@ -45,39 +44,34 @@ export function Header() {
           <Button
             onClick={handleToggleSidebar}
             variant="secondary"
-            className="hidden bg-transparent hover:bg-neutral-500/10 md:flex"
+            className="mx-2 hidden bg-transparent hover:bg-neutral-500/10 md:flex"
             size="icon"
           >
-            {sidebarExpanded ? (
-              <Menu09Icon
-                {...menuItemIconProps}
-                width={24}
-                height={24}
-                className="stroke-neutral-700 dark:stroke-neutral-400"
-              />
-            ) : (
-              <ArrowRight03Icon
-                {...menuItemIconProps}
-                width={24}
-                height={24}
-                className="stroke-neutral-700 dark:stroke-neutral-400"
-              />
-            )}
+            <Menu09Icon
+              width={24}
+              height={24}
+              className="h-6 w-6 stroke-neutral-700 dark:stroke-neutral-400"
+            />
           </Button>
 
-          <div className="relative h-6 w-14">
-            <Link href="/" className="absolute h-full w-full cursor-pointer">
+          <div />
+          <div className="absolute left-8 flex h-24 w-20 items-center justify-center bg-background pt-3 shadow-lg dark:bg-[#090909] md:left-1/2 md:-translate-x-1/2">
+            <Link
+              href="/"
+              className="relative flex items-center justify-center transition-all hover:scale-110"
+            >
               <Image
                 src="/svgs/logotype.svg"
                 className="overflow-hidden transition-all"
-                fill
+                width={44}
+                height={52}
                 priority
                 unoptimized
                 alt="Logo Oscar Alves"
               />
             </Link>
 
-            <div className="absolute inset-0 -z-20 flex items-center justify-center">
+            <div className="absolute items-center justify-center">
               <div className="rounded-full bg-transparent shadow-[0_0_100px_100px_rgba(206,44,90,0.15)]"></div>
             </div>
           </div>

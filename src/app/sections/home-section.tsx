@@ -20,12 +20,6 @@ export const HomeSection = () => {
   const { scrollY } = useScroll();
   const backgroundY = useTransform(scrollY, [0, 750], ['0%', '58%']);
 
-  const symbol01Y = useTransform(scrollY, [0, 900], ['-160%', '58%']);
-  const symbol02Y = useTransform(scrollY, [0, 900], ['-190%', '-178%']);
-  const symbol03Y = useTransform(scrollY, [0, 500], ['128%', '8%']);
-  const symbol04Y = useTransform(scrollY, [0, 500], ['108%', '-81%']);
-  const symbol05Y = useTransform(scrollY, [0, 500], ['128%', '8%']);
-
   const opacityOut = useTransform(scrollY, [0, 400], ['100%', '0%']);
   const [isWaiting, setIsWaiting] = useState(false);
 
@@ -58,8 +52,7 @@ export const HomeSection = () => {
         viewport={{ once: true, margin: '-100px' }}
         variants={fadeInVariants}
         transition={{
-          duration: 1,
-          delay: 0.1,
+          duration: 0.5,
           ease: 'easeInOut',
         }}
         style={{
@@ -70,7 +63,7 @@ export const HomeSection = () => {
         }}
       />
 
-      <motion.div
+      {/* <motion.div
         className="absolute left-[40%] top-[300px] z-0 text-8xl text-primary blur-[4px]"
         style={{ y: symbol01Y, opacity: opacityOut }}
       >
@@ -106,7 +99,7 @@ export const HomeSection = () => {
         style={{ y: symbol04Y, opacity: opacityOut }}
       >
         ◯
-      </motion.div>
+      </motion.div> */}
       <div className="container relative z-50 flex">
         <div className="flex min-w-72 max-w-[620px] flex-1 flex-col items-start md:pl-10">
           <div className="text-shadow relative z-20 mb-2 bg-black/30 p-3 text-xl font-normal text-white dark:bg-none lg:text-2xl">
@@ -160,13 +153,13 @@ export const HomeSection = () => {
       </div>
       <div className="absolute right-4 top-[70%] z-30 md:left-1/2 md:right-auto md:-translate-x-1/2 md:transform">
         <motion.button
-          className="relative z-50 cursor-pointer rounded-full border border-foreground bg-background/30 py-4"
+          className="relative z-50 cursor-pointer rounded-full border border-foreground bg-background/80 py-4"
           onClick={() => handleMenuClick('about')}
           style={{ opacity: opacityOut }}
         >
           <ArrowDown02Icon
-            className="size-12 animate-scroll-hint text-background dark:text-foreground"
-            strokeWidth={0.4}
+            className="size-12 animate-scroll-hint text-foreground"
+            strokeWidth={0.8}
           />
         </motion.button>
       </div>

@@ -17,9 +17,6 @@ export default {
       },
     },
     extend: {
-      backgroundImage: {
-        'home-bg': "url('/images/bg-oscar-alves.png')",
-      },
       textShadow: {
         sm: '1px 1px 2px rgba(0, 0, 0, 0.5)',
         DEFAULT: '2px 2px 4px rgba(0, 0, 0, 0.5)',
