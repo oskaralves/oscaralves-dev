@@ -1,4 +1,4 @@
-import { Sidebar } from '@/components/layout/sidebar';
+import { Sidebar } from '@/components/layout/sidebar/sidebar';
 import { Toaster } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { APP_TITLE } from '@/constants';
