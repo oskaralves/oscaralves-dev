@@ -1,4 +1,15 @@
 {
+  "LEND": {
+    "COMPANY": "Lend Tech",
+    "ROLE": "Engenheiro de Software Front End Sênior",
+    "START_DATE": "JAN/2025",
+    "END_DATE": null,
+    "DESCRIPTION": [
+      "Desempenho um papel essencial no desenvolvimento e evolução do design system da empresa, garantindo consistência visual e eficiência no desenvolvimento de interfaces modernas e acessíveis.",
+      "Trabalho na implementação de novas funcionalidades, otimização de componentes e integração de tecnologias voltadas para aprimorar a experiência do usuário.",
+      "Além do desenvolvimento técnico, participo ativamente do planejamento de produtos, colaborando com designers e stakeholders para garantir alinhamento estratégico e qualidade nas entregas."
+    ]
+  },
   "MERCADO_DIFERENTE": {
     "COMPANY": "Mercado Diferente",
     "ROLE": "Engenheiro de Software Front End Sênior",

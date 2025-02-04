@@ -1,4 +1,15 @@
 {
+  "LEND": {
+    "COMPANY": "Lend Tech",
+    "ROLE": "Senior Front End Software Engineer",
+    "START_DATE": "JAN/2025",
+    "END_DATE": null,
+    "DESCRIPTION": [
+      "I play a key role in developing and evolving the company's design system, ensuring visual consistency and efficiency in building modern and accessible interfaces.",
+      "I work on implementing new features, optimizing components, and integrating technologies to enhance the user experience.",
+      "Beyond technical development, I actively participate in product planning, collaborating with designers and stakeholders to ensure strategic alignment and high-quality deliveries."
+    ]
+  },
   "MERCADO_DIFERENTE": {
     "COMPANY": "Mercado Diferente",
     "ROLE": "Senior Front-End Software Engineer",
