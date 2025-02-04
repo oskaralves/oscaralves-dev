@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 import { getNavigation } from '@/navigation';
 import { motion, useCycle } from 'framer-motion';
 import { usePathname } from 'next/navigation';
-import { MenuItem } from './sidebar/menu-item';
+import { MenuItem } from './menu-item';
 
 const sidebar = {
   open: (height = 1000) => ({
