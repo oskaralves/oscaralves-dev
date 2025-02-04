@@ -6,6 +6,7 @@ import feedback_ptBR from './pt-BR/feedback.json';
 import field_ptBR from './pt-BR/field.json';
 import general_ptBR from './pt-BR/general.json';
 import page_ptBR from './pt-BR/page.json';
+import recommendation_ptBR from './pt-BR/recommendation.json';
 import segment_ptBR from './pt-BR/segment.json';
 import validation_ptBR from './pt-BR/validation.json';
 
@@ -15,6 +16,7 @@ import feedback_enUS from './en-US/feedback.json';
 import field_enUS from './en-US/field.json';
 import general_enUS from './en-US/general.json';
 import page_enUS from './en-US/page.json';
+import recommendation_enUS from './en-US/recommendation.json';
 import segment_enUS from './en-US/segment.json';
 import validation_enUS from './en-US/validation.json';
 
@@ -24,6 +26,7 @@ import feedback_esES from './es-ES/feedback.json';
 import field_esES from './es-ES/field.json';
 import general_esES from './es-ES/general.json';
 import page_esES from './es-ES/page.json';
+import recommendation_esES from './es-ES/recommendation.json';
 import segment_esES from './es-ES/segment.json';
 import validation_esES from './es-ES/validation.json';
 
@@ -34,6 +37,7 @@ type FeedbackType = typeof feedback_ptBR;
 type PageType = typeof page_ptBR;
 type SegmentType = typeof segment_ptBR;
 type ExperienceType = typeof experience_ptBR;
+type RecommendationType = typeof recommendation_ptBR;
 
 export type DictionaryType = {
   general: GeneralType;
@@ -43,6 +47,7 @@ export type DictionaryType = {
   page: PageType;
   segment: SegmentType;
   experience: ExperienceType;
+  recommendation: RecommendationType;
 };
 
 export const dictionaries: Record<Locale, DictionaryType> = {
@@ -54,6 +59,7 @@ export const dictionaries: Record<Locale, DictionaryType> = {
     feedback: feedback_ptBR,
     segment: segment_ptBR,
     experience: experience_ptBR,
+    recommendation: recommendation_ptBR,
   },
   'en-US': {
     page: page_enUS,
@@ -63,6 +69,7 @@ export const dictionaries: Record<Locale, DictionaryType> = {
     feedback: feedback_enUS,
     segment: segment_enUS,
     experience: experience_enUS,
+    recommendation: recommendation_enUS,
   },
   'es-ES': {
     page: page_esES,
@@ -72,6 +79,7 @@ export const dictionaries: Record<Locale, DictionaryType> = {
     feedback: feedback_esES,
     segment: segment_esES,
     experience: experience_esES,
+    recommendation: recommendation_esES,
   },
 };
 

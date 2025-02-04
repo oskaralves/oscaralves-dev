@@ -1,0 +1,52 @@
+{
+  "ISABELLE_DAVID": {
+    "NAME": "Isabelle David",
+    "ROLE": "Senior Product Designer na CI&T | Designer Lead",
+    "DATE": "11 de outubro de 2021",
+    "LINKEDIN": "https://linkedin.com/in/isabelledavid",
+    "TEXT": [
+      "Oscar é um ótimo desenvolvedor, sempre compartilha toda sua experiência com a equipe, além de utilizar seus conhecimentos para ajudar o time de produto com ideias e soluções. Traz segurança para a equipe e um ambiente muito leve para trabalhar.",
+      "Foi um prazer conhecer você como pessoa e profissional, obrigada pelos conhecimentos compartilhados e toda parceria!"
+    ]
+  },
+  "GUILHERME_LAGES": {
+    "NAME": "Guilherme Lages Santos",
+    "ROLE": "Software Engineering Manager",
+    "DATE": "28 de outubro de 2024",
+    "LINKEDIN": "https://linkedin.com/in/guilherme-lages-santos",
+    "TEXT": [
+      "Oscar é um exemplo de dedicação e resiliência dentro do dia a dia de trabalho. Trabalhamos juntos por 3 anos e foi possível ver sua evolução e forma de lidar com os problemas bem de perto. É alguém extremamente confiável e que se dedica muito nos projetos que trabalha.",
+      "Sem dúvidas qualquer time que tem ele como parte ganha muito. Sem falar ainda que apesar de todos os momentos difíceis ainda consegue manter seu bom humor e espírito em alto astral!"
+    ]
+  },
+  "JACKSON_PIRES": {
+    "NAME": "Jackson Pires",
+    "ROLE": "Software Engineer",
+    "DATE": "28 de outubro de 2024",
+    "LINKEDIN": "https://linkedin.com/in/jackson-pires",
+    "TEXT": [
+      "Trabalhei com o Oscar na Mercado Diferente e lá atestei sua capacidade técnica e compromisso nas entregas.",
+      "Profissional que recomendo!"
+    ]
+  },
+  "ROMULO_GOMES": {
+    "NAME": "Rômulo Gomes",
+    "ROLE": "Senior Software Engineer",
+    "DATE": "28 de outubro de 2024",
+    "LINKEDIN": "https://linkedin.com/in/romulo--gomes",
+    "TEXT": [
+      "Oscar é um ótimo profissional, veste a camisa como ninguém. Sempre disposto e disponível a ajudar.",
+      "Grande prazer trabalhar junto com ele."
+    ]
+  },
+  "JOAO_VITOR": {
+    "NAME": "Tkovs (João Vitor Rodrigues)",
+    "ROLE": "Senior Software Engineer",
+    "DATE": "4 de novembro de 2024",
+    "LINKEDIN": "https://linkedin.com/in/tkovs",
+    "TEXT": [
+      "Tive o privilégio de trabalhar com Oscar por quase dois anos, durante os quais contribuímos juntos para o desenvolvimento do frontend da empresa desde a sua fundação. Oscar é um engenheiro de software altamente competente, com a habilidade de manter a calma e entregar resultados sob pressão.",
+      "Extremamente ágil ao programar, implementando novas features e correções com rapidez e precisão. Em reuniões, oferece insights valiosos que agregam valor ao produto. Sua postura é de um verdadeiro engenheiro de software, que alia responsabilidade técnica ao compromisso com o sucesso do projeto."
+    ]
+  }
+}

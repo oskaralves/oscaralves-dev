@@ -3,6 +3,7 @@ import { ContactSection } from './sections/contact-section';
 import { ExperiencesSection } from './sections/experiences-section';
 import { FeaturesCardsSection } from './sections/features-cards-section';
 import { HomeSection } from './sections/home-section';
+import { RecommendationsSection } from './sections/recommendations-section';
 import { SkillsSection } from './sections/skills-section';
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <AboutSection />
       <SkillsSection />
       <ExperiencesSection />
+      <RecommendationsSection />
       {/* <ProjectsSection /> */}
       <ContactSection />
     </div>

@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: 'https://oscaralves.dev/images/preview.jpg',
-        width: 1440,
-        height: 940,
+        url: 'https://www.oscaralves.dev/images/preview.jpg',
+        width: 1220,
+        height: 693,
         alt: title,
       },
     ],
