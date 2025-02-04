@@ -1,8 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖥️ oscaralves-dev
 
-## Getting Started
+![website](public/images/preview.jpg)
 
-First, run the development server:
+This is the source code for my personal website, a project developed with [Next.js](https://nextjs.org) and various modern front-end technologies.
+
+## 🚀 Technologies Used
+
+- **Framework**: [Next.js 15](https://nextjs.org) + [React 19](https://react.dev/)
+- **Languages**: [TypeScript](https://www.typescriptlang.org/) + [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- **UI & Styling**: [Tailwind CSS](https://tailwindcss.com/) + [ShadCN UI](https://ui.shadcn.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [React Type Animation](https://www.npmjs.com/package/react-type-animation)
+- **Form Validation**: [React Hook Form](https://www.react-hook-form.com/get-started/) + [Zod](https://zod.dev/)
+
+## 🎯 Features
+
+- 🎨 **Modern UI** with **Dark Mode** and **Light Mode**, supported by `next-themes`
+- ⚡ **Optimized performance** using **Turbopack** and pre-rendering strategies
+- 📈 **Enhanced SEO** with **OpenGraph, Twitter Cards, and automatic Sitemap**
+- 📩 **Contact Form** with validation via `React Hook Form` and `Zod`, and email sending via `Mailgun.js`
+
+## 🛠️ Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/oskaralves/oscaralves-dev.git
+cd oscaralves-dev
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+## 🚀 Getting Started
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +48,31 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Build
 
-## Learn More
+To build the project for production:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run start
+# or
+yarn start
+# or
+pnpm start
+```

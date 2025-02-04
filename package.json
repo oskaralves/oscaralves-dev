@@ -1,7 +1,8 @@
 {
-  "name": "oscaralves.dev",
+  "name": "oscaralves-dev",
   "version": "0.1.0",
   "private": true,
+  "author": "Oscar Alves <osk.alves@gmail.com> (https://github.com/oskaralves)",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
