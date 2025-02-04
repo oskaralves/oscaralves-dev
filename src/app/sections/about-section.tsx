@@ -12,7 +12,7 @@ export const AboutSection = () => {
       id="about"
       className="relative flex min-h-[700px] w-full flex-col bg-background/20 pb-24 pt-12 md:min-h-[calc(100vh-68px)] lg:bg-[url('/images/img-about.png')] lg:bg-cover lg:bg-right-top"
     >
-      <div className="container space-y-6">
+      <div className="container space-y-6 px-4 md:px-8">
         <div className="grid grid-cols-1 items-start justify-items-center gap-4 lg:grid-cols-3">
           <div className="col-span-2 flex flex-col space-y-10 md:pr-24">
             <motion.h2

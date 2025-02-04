@@ -13,7 +13,7 @@ export const ExperiencesSection = () => {
       id="experiences"
       className="relative flex min-h-[700px] w-full flex-col bg-background/30 pb-24 pt-12 md:min-h-[calc(100vh-68px)]"
     >
-      <div className="container space-y-6">
+      <div className="container space-y-6 px-4 md:px-8">
         <motion.h2
           className="text-5xl font-light lg:text-7xl lg:font-extralight"
           initial={{ opacity: 0, x: -50 }}

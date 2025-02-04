@@ -27,7 +27,7 @@ export const FeaturesCardsSection = () => {
       id="features"
       className="flex w-full flex-col bg-background/50 py-12"
     >
-      <div className="container">
+      <div className="container px-4 md:px-8">
         <div className="grid grid-cols-2 items-center justify-items-center gap-4 lg:grid-cols-3">
           <motion.div
             className="col-span-3 w-full lg:col-span-1"
@@ -68,7 +68,6 @@ export const FeaturesCardsSection = () => {
             />
           </motion.div>
 
-          {/* Direita */}
           <motion.div
             className="col-span-3 w-full lg:col-span-1"
             initial="rightHidden"

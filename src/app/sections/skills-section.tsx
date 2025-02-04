@@ -1,10 +1,10 @@
 'use client';
 
 import { SegmentCard } from '@/components/app/segment-card';
-import { getSegments } from '@/constants/segments';
-import { skills } from '@/constants/skills';
 import { useDictionary } from '@/contexts/dictionary-context';
 import { useLanguage } from '@/contexts/locale-context';
+import { getSegments } from '@/data/segments';
+import { skills } from '@/data/skills';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
 
@@ -20,7 +20,7 @@ export const SkillsSection = () => {
       id="skills"
       className="flex min-h-[700px] w-full flex-col pb-24 pt-12 dark:bg-black/10 md:min-h-[calc(100vh-68px)]"
     >
-      <div className="container space-y-6">
+      <div className="container space-y-6 px-4 md:px-8">
         <motion.h2
           className="text-center text-5xl font-light lg:text-7xl lg:font-extralight"
           initial={{ opacity: 0, y: -30 }}

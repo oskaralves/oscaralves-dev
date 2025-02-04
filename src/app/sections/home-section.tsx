@@ -1,7 +1,7 @@
 'use client';
 
 import { CanvasParticles } from '@/components/app/canvas-particles';
-import { useAppContext } from '@/contexts/AppContext';
+import { useAppContext } from '@/contexts/app-context';
 import { useDictionary } from '@/contexts/dictionary-context';
 import { useLanguage } from '@/contexts/locale-context';
 import { motion, useScroll, useTransform } from 'framer-motion';
@@ -100,7 +100,7 @@ export const HomeSection = () => {
       >
         ◯
       </motion.div> */}
-      <div className="container relative z-50 flex">
+      <div className="container relative z-50 flex px-4 md:px-8">
         <div className="flex min-w-72 max-w-[620px] flex-1 flex-col items-start md:pl-10">
           <div className="text-shadow relative z-20 mb-2 bg-black/30 p-3 text-xl font-normal text-white dark:bg-none lg:text-2xl">
             {isWaiting ? (

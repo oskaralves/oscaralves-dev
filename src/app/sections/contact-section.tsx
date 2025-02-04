@@ -2,6 +2,7 @@
 
 import { ContactForm } from '@/components/app/contact-form';
 import { ContactInfo } from '@/components/app/contact-info';
+import { MY_EMAIL, MY_GITHUB, MY_LINKEDIN } from '@/constants';
 import { useDictionary } from '@/contexts/dictionary-context';
 import { Github01Icon, Linkedin02Icon, Mail02Icon } from 'hugeicons-react';
 
@@ -15,7 +16,7 @@ export const ContactSection = () => {
       id="contact"
       className="flex min-h-[700px] w-full flex-col items-center justify-center pb-24 pt-12 dark:bg-black/10 md:min-h-[calc(100vh-68px)]"
     >
-      <div className="container h-full space-y-12">
+      <div className="container h-full space-y-12 px-4 md:px-8">
         <h2 className="text-center text-5xl font-light lg:text-7xl lg:font-extralight">
           {CONTACT_PAGE.TITLE}
         </h2>
@@ -30,20 +31,20 @@ export const ContactSection = () => {
               <ContactInfo
                 icon={<Mail02Icon className="size-8" strokeWidth={0.8} />}
                 label={CONTACT_PAGE.EMAIL}
-                value="osk.alves@gmail.com"
-                link="mailto:osk.alves@gmail.com"
+                value={MY_EMAIL}
+                link={`mailto:${MY_EMAIL}`}
               />
               <ContactInfo
                 icon={<Linkedin02Icon className="size-8" strokeWidth={0.8} />}
                 label={CONTACT_PAGE.LINKEDIN}
-                value="linkedin.com/in/oskaralves"
-                link="https://www.linkedin.com/in/oskaralves"
+                value={MY_LINKEDIN}
+                link={`https://${MY_LINKEDIN}`}
               />
               <ContactInfo
                 icon={<Github01Icon className="size-8" strokeWidth={0.8} />}
                 label={CONTACT_PAGE.GITHUB}
-                value="github.com/oskaralves"
-                link="https://github.com/oskaralves"
+                value={MY_GITHUB}
+                link={`https://${MY_GITHUB}`}
               />
             </div>
           </div>
