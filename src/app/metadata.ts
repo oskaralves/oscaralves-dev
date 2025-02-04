@@ -29,4 +29,10 @@ export const metadata: Metadata = {
     locale: 'pt_BR',
     type: 'website',
   },
+  themeColor: '#CE2C5A',
+  other: {
+    'msapplication-TileColor': '#CE2C5A',
+    'theme-color': '#CE2C5A',
+    'apple-mobile-web-app-status-bar-style': 'black-translucent',
+  },
 };
