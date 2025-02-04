@@ -4,23 +4,23 @@ import { cn } from '@/lib/utils';
 import { motion, useInView } from 'framer-motion';
 import React, { useRef } from 'react';
 
-interface SkillProgressProps {
+type SkillLevelProps = {
   logo: React.ReactNode;
   title: string;
   color: string;
   level: number;
   isCompact?: boolean;
   index: number;
-}
+};
 
-export const SkillProgress = ({
+export const SkillLevel = ({
   logo,
   title,
   color,
   level,
   isCompact,
   index,
-}: SkillProgressProps) => {
+}: SkillLevelProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 

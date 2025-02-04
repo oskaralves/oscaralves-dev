@@ -17,7 +17,7 @@ export const ExpandableDescription = ({
   return (
     <div className="relative">
       <div
-        className={`overflow-hidden text-sm leading-relaxed text-muted-foreground transition-all duration-300 ${
+        className={`overflow-hidden text-xs leading-relaxed text-muted-foreground transition-all duration-300 md:text-sm ${
           isExpanded ? 'line-clamp-none' : 'line-clamp-6 lg:line-clamp-4'
         }`}
       >

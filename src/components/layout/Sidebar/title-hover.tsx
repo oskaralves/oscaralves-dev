@@ -1,4 +1,4 @@
-import { useAppContext } from '@/contexts/AppContext';
+import { useAppContext } from '@/contexts/app-context';
 
 type TitleHoverProps = { title: string };
 

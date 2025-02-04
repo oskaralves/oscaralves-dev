@@ -1,8 +1,8 @@
-import { Sidebar } from '@/components/layout/Sidebar';
+import { Sidebar } from '@/components/layout/sidebar';
 import { Toaster } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { APP_TITLE } from '@/constants';
-import { AppContextProvider } from '@/contexts/AppContext';
+import { AppContextProvider } from '@/contexts/app-context';
 import { DictionaryProvider } from '@/contexts/dictionary-context';
 import { LocaleProvider } from '@/contexts/locale-context';
 import { getDictionary } from '@/dictionaries';
@@ -12,7 +12,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { Montserrat } from 'next/font/google';
 import { ThemeProvider } from '../../theme/ThemeProvider';
 import { getSidebarExtendedAction } from '../actions/sidebarExtendedAction';
-import { Header } from '../components/layout/Header';
+import { Header } from '../components/layout/header';
 import './globals.css';
 import { metadata } from './metadata';
 

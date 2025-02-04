@@ -1,7 +1,8 @@
 'use client';
 
-import { getExperiences } from '@/constants/experiences';
+import { useDictionary } from '@/contexts/dictionary-context';
 import { useLanguage } from '@/contexts/locale-context';
+import { getExperiences } from '@/data/experiences';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
 import { ArrowDown02Icon, ArrowRight02Icon } from 'hugeicons-react';
@@ -10,14 +11,17 @@ import { ExpandableDescription } from './expandable-description';
 
 export const ExperienceTimeline = () => {
   const { locale } = useLanguage();
-  const experiences = getExperiences(locale);
+  const experiences = getExperiences(locale).filter((exp) => exp.isVisible);
+  const {
+    general: { CURRENT },
+  } = useDictionary();
   return (
     <div className="flex flex-col">
       {experiences.map((exp, index) => {
         const previousExp = experiences[index - 1];
-        const currentYear = exp.endDate.split('/')[1];
+        const currentYear = (exp.endDate || exp.startDate).split('/')[1];
         const previousYear = previousExp
-          ? previousExp.endDate.split('/')[1]
+          ? (previousExp.endDate || previousExp.startDate).split('/')[1]
           : null;
 
         return (
@@ -41,7 +45,7 @@ export const ExperienceTimeline = () => {
                 <span>{exp.startDate}</span>
                 <ArrowRight02Icon className="hidden h-4 w-4 lg:flex" />
                 <ArrowDown02Icon className="flex h-4 w-4 lg:hidden" />
-                <span>{exp.endDate}</span>
+                <span>{exp.endDate || CURRENT}</span>
               </div>
               <div className="aspect-square bg-foreground/10 transition-all">
                 <Image
@@ -52,24 +56,10 @@ export const ExperienceTimeline = () => {
                   unoptimized
                 />
               </div>
-              {/**
-               * Todo: Portfolio galery
-
-              <div className="mb-24 grid w-full grid-cols-2 gap-2 lg:grid-cols-3">
-                <div className="aspect-square bg-foreground/10 transition-all">
-                  <Image
-                    src={exp.logo}
-                    alt={`${exp.company} Logo`}
-                    width={140}
-                    height={140}
-                    unoptimized
-                  />
-                </div>
-              </div> */}
             </motion.div>
 
             <motion.div
-              className="relative col-span-1 flex h-full justify-center"
+              className="relative col-span-1 hidden h-full justify-center md:flex"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -81,7 +71,7 @@ export const ExperienceTimeline = () => {
             </motion.div>
 
             <motion.div
-              className="relative col-span-8 mb-24 flex flex-col space-y-3 bg-card p-4 shadow-md lg:p-8"
+              className="relative col-span-9 mb-24 flex flex-col space-y-3 bg-card p-4 shadow-md md:col-span-8 lg:p-8"
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -93,16 +83,6 @@ export const ExperienceTimeline = () => {
                     {exp.role}
                   </span>
                 </div>
-                {/**
-                 * Todo: Company Logo
-                 *
-                <Image
-                  src={exp.logo}
-                  alt={`${exp.company} Logo`}
-                  width={56}
-                  height={56}
-                  unoptimized
-                /> */}
               </div>
               <ExpandableDescription
                 description={

@@ -3,12 +3,12 @@
 import { LanguageSwitcher } from '@/components/app/language-switcher';
 import { ThemeButton } from '@/components/app/theme-button';
 import { Button } from '@/components/ui/button';
-import { useAppContext } from '@/contexts/AppContext';
+import { useAppContext } from '@/contexts/app-context';
 import { cn } from '@/lib/utils';
 import { Menu09Icon } from 'hugeicons-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SidebarMobile } from '../HeaderMobile';
+import { SidebarMobile } from './sidebar-mobile';
 
 export function Header() {
   const { sidebarExpanded, handleToggleSidebar } = useAppContext();

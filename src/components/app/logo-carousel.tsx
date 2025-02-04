@@ -1,6 +1,6 @@
 'use client';
 
-import { skills } from '@/constants/skills';
+import { skills } from '@/data/skills';
 import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 

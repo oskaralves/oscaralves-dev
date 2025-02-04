@@ -1,9 +1,9 @@
 import { IMenuItem } from '@/navigation/types';
 import { Cycle } from 'framer-motion';
 import { JSX } from 'react';
-import { MenuItemCollapse } from './MenuItemCollapse';
-import { MenuItemGroup } from './MenuItemGroup';
-import { MenuItemSimple } from './MenuItemSimple';
+import { MenuItemCollapse } from './menu-item-collapse';
+import { MenuItemGroup } from './menu-item-group';
+import { MenuItemSimple } from './menu-item-simple';
 
 type MenuItemProps = {
   item: IMenuItem;

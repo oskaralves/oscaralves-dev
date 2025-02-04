@@ -1,5 +1,5 @@
 import { TooltipContent } from '@/components/ui/tooltip';
-import { useAppContext } from '@/contexts/AppContext';
+import { useAppContext } from '@/contexts/app-context';
 import { cn } from '@/lib/utils';
 import { Tooltip, TooltipTrigger } from '@radix-ui/react-tooltip';
 import { useCallback } from 'react';

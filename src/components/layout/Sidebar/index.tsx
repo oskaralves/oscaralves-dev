@@ -1,11 +1,11 @@
 'use client';
 
-import { useAppContext } from '@/contexts/AppContext';
+import { useAppContext } from '@/contexts/app-context';
 import { useLanguage } from '@/contexts/locale-context';
 import { cn } from '@/lib/utils';
 import { getNavigation } from '@/navigation';
 import { ReactNode } from 'react';
-import { MenuItem } from './MenuItem';
+import { MenuItem } from './menu-item';
 
 export type SidebarProps = {
   children?: ReactNode;

@@ -1,5 +1,5 @@
-import { useAppContext } from '@/contexts/AppContext';
-import { MenuItem } from './MenuItem';
+import { useAppContext } from '@/contexts/app-context';
+import { MenuItem } from './menu-item';
 import { MenuItemProps } from './types';
 
 export const MenuItemGroup = ({ item }: MenuItemProps) => {

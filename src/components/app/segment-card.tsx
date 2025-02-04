@@ -2,23 +2,16 @@
 
 import { useDictionary } from '@/contexts/dictionary-context';
 import { cn } from '@/lib/utils';
+import { Skill } from '@/types/skill';
 import Image from 'next/image';
 import { ReactNode } from 'react';
-import { SkillProgress } from './skill-progress';
-
-export type SkillLevel = {
-  imageUrl: string;
-  title: string;
-  color: string;
-  segment: string;
-  level: number;
-};
+import { SkillLevel } from './skill-level';
 
 type SegmentCardProps = {
   icon: ReactNode;
   title?: string | number;
   description: ReactNode;
-  skills: SkillLevel[];
+  skills: Skill[];
   isCompact?: boolean;
 };
 export const SegmentCard = ({
@@ -56,7 +49,7 @@ export const SegmentCard = ({
               'col-span-1': isCompact,
             })}
           >
-            <SkillProgress
+            <SkillLevel
               logo={
                 <Image
                   src={skill.imageUrl}

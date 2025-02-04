@@ -1,6 +1,6 @@
 'use client';
 
-import { useAppContext } from '@/contexts/AppContext';
+import { useAppContext } from '@/contexts/app-context';
 import { useEffect, useRef } from 'react';
 
 export const CanvasParticles = () => {

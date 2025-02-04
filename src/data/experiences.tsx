@@ -5,6 +5,7 @@ import { Fragment } from 'react';
 
 export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
   const {
+    LEND,
     MERCADO_DIFERENTE,
     ZESTT,
     NEURALTRONIC,
@@ -35,12 +36,22 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
 
   return [
     {
+      company: LEND.COMPANY,
+      role: LEND.ROLE,
+      startDate: LEND.START_DATE,
+      endDate: LEND.END_DATE,
+      logo: '/images/logos/lend.png',
+      description: formatDescription(LEND.DESCRIPTION),
+      isVisible: false,
+    },
+    {
       company: MERCADO_DIFERENTE.COMPANY,
       role: MERCADO_DIFERENTE.ROLE,
       startDate: MERCADO_DIFERENTE.START_DATE,
       endDate: MERCADO_DIFERENTE.END_DATE,
       logo: '/images/logos/mercado-diferente.png',
       description: formatDescription(MERCADO_DIFERENTE.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: ZESTT.COMPANY,
@@ -49,6 +60,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: ZESTT.END_DATE,
       logo: '/images/logos/zestt.png',
       description: formatDescription(ZESTT.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: NEURALTRONIC.COMPANY,
@@ -57,6 +69,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: NEURALTRONIC.END_DATE,
       logo: '/images/logos/neuraltronic.png',
       description: formatDescription(NEURALTRONIC.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: EFABRIKA.COMPANY,
@@ -65,6 +78,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: EFABRIKA.END_DATE,
       logo: '/images/logos/efabrika.png',
       description: formatDescription(EFABRIKA.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: BITBEER.COMPANY,
@@ -73,6 +87,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: BITBEER.END_DATE,
       logo: '/images/logos/bitbeer.png',
       description: formatDescription(BITBEER.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: EZTECH_PMO.COMPANY,
@@ -81,6 +96,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: EZTECH_PMO.END_DATE,
       logo: '/images/logos/eztech.png',
       description: formatDescription(EZTECH_PMO.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: EZTECH_SENIOR.COMPANY,
@@ -89,6 +105,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: EZTECH_SENIOR.END_DATE,
       logo: '/images/logos/eztech.png',
       description: formatDescription(EZTECH_SENIOR.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: EZTECH_PLENO.COMPANY,
@@ -97,6 +114,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: EZTECH_PLENO.END_DATE,
       logo: '/images/logos/eztech.png',
       description: formatDescription(EZTECH_PLENO.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: FATOR_CRIATIVO.COMPANY,
@@ -105,6 +123,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: FATOR_CRIATIVO.END_DATE,
       logo: '/images/logos/fator-criativo.png',
       description: formatDescription(FATOR_CRIATIVO.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: IVE_STUDIO.COMPANY,
@@ -113,6 +132,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: IVE_STUDIO.END_DATE,
       logo: '/images/logos/ive-studio.png',
       description: formatDescription(IVE_STUDIO.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: SEVEN_MEDIA.COMPANY,
@@ -121,6 +141,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: SEVEN_MEDIA.END_DATE,
       logo: '/images/logos/seven-computacao-grafica.png',
       description: formatDescription(SEVEN_MEDIA.DESCRIPTION),
+      isVisible: true,
     },
     {
       company: SEVEN_INTERNSHIP.COMPANY,
@@ -129,6 +150,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: SEVEN_INTERNSHIP.END_DATE,
       logo: '/images/logos/seven-computacao-grafica.png',
       description: formatDescription(SEVEN_INTERNSHIP.DESCRIPTION),
+      isVisible: true,
     },
   ];
 };
