@@ -1,5 +1,6 @@
 'use server';
 
+import { MY_EMAIL } from '@/constants';
 import { ContactFormValueType } from '@/schemas/contact.schema';
 import formData from 'form-data';
 import Mailgun from 'mailgun.js';
@@ -7,6 +8,7 @@ import Mailgun from 'mailgun.js';
 const apiKey = process.env.MAILGUN_API_KEY;
 const domain = process.env.MAILGUN_DOMAIN;
 const template = 'contact form';
+const secretKey = process.env.CLOUDFLARE_SITE_KEY;
 
 const mailgun = new Mailgun(formData);
 const mg = mailgun.client({
@@ -14,20 +16,41 @@ const mg = mailgun.client({
   key: apiKey as string,
 });
 
-export async function sendEmail(data: ContactFormValueType) {
-  if (!apiKey || !domain) {
-    throw new Error('Mailgun API Key or Domain is missing');
+export async function sendEmail(
+  data: ContactFormValueType & { captcha: string }
+) {
+  if (!apiKey || !domain || !secretKey) {
+    throw new Error(
+      'Mailgun API Key, Domain ou Turnstile Secret Key estão ausentes.'
+    );
   }
 
-  const { name, email, message, cellphone } = data;
-  const recipient = 'osk.alves@gmail.com';
+  const { name, email, message, cellphone, captcha } = data;
+  const recipient = MY_EMAIL;
+
+  const captchaResponse = await fetch(
+    'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        secret: secretKey,
+        response: captcha,
+      }),
+    }
+  );
+
+  const captchaResult = await captchaResponse.json();
+
+  if (!captchaResult.success) {
+    return { success: false, message: 'Verificação do CAPTCHA falhou.' };
+  }
 
   try {
     const response = await mg.messages.create(domain, {
       from: `Contato <no-reply@${domain}>`,
       to: recipient,
-      subject: `Nova mensagem de ${name}`,
-      text: `Nome: ${name}\nE-mail: ${email || 'Não informado'}\nCelular: ${cellphone || 'Não informado'}\n\nMensagem:\n${message}`,
+      subject: `Nova mensagem de ${name} - ${domain}`,
       template,
       'h:X-Mailgun-Variables': JSON.stringify({
         name: name,

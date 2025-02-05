@@ -21,6 +21,7 @@ import {
 import { useCallback, useState, useTransition } from 'react';
 import { useForm } from 'react-hook-form';
 import { Country } from 'react-phone-number-input';
+import Turnstile from 'react-turnstile';
 import {
   Form,
   FormControl,
@@ -31,6 +32,9 @@ import {
 } from '../ui/form';
 import { PhoneInput } from '../ui/phone-input';
 import { useSonnerToast } from '../ui/use-sonner-toast';
+
+const CLOUDFLARE_SITE_KEY = process.env
+  .NEXT_PUBLIC_CLOUDFLARE_SITE_KEY as string;
 
 export const ContactForm = () => {
   const { locale, countries } = useLanguage();
@@ -56,7 +60,9 @@ export const ContactForm = () => {
     defaultValues: getContactFormValues(),
     mode: 'onChange',
   });
+
   const [isPending, startTransition] = useTransition();
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
 
   const [country, setCountry] = useState<Country | undefined>(
     () => countries[locale]
@@ -64,31 +70,38 @@ export const ContactForm = () => {
 
   const onSubmit = useCallback(
     (values: ContactFormValueType) => {
+      if (!captchaToken) {
+        showToast({
+          type: 'error',
+          title: 'Por favor, complete a verificação de segurança.',
+        });
+        return;
+      }
+
       startTransition(async () => {
-        console.log('values', values);
-        const res = await sendEmail(values);
+        const res = await sendEmail({ ...values, captcha: captchaToken });
+
         if (!res.success) {
           const errorToastId = showToast({
             type: 'error',
             title: CONTACT.MESSAGE_SEND_ERROR,
             closeButton: false,
-            action: {
-              label: CLOSE,
-              onClick: () => closeToast(errorToastId),
-            },
+            action: { label: CLOSE, onClick: () => closeToast(errorToastId) },
           });
           return;
         }
+
         const successToastId = showToast({
           type: 'success',
           title: CONTACT.MESSAGE_SEND_SUCCESSFULLY,
           closeButton: false,
           action: { label: CLOSE, onClick: () => closeToast(successToastId) },
         });
+
         form.reset(getContactFormValues());
       });
     },
-    [CLOSE, CONTACT, closeToast, form, showToast]
+    [captchaToken, CLOSE, CONTACT, closeToast, form, showToast]
   );
 
   return (
@@ -202,7 +215,14 @@ export const ContactForm = () => {
             </FormItem>
           )}
         />
-        <div className="flex justify-end">
+
+        <div className="flex flex-col justify-between gap-4 md:flex-row">
+          <div className="flex justify-center">
+            <Turnstile
+              sitekey={CLOUDFLARE_SITE_KEY}
+              onVerify={setCaptchaToken}
+            />
+          </div>
           <Button
             type="submit"
             size="lg"

@@ -22,7 +22,6 @@ export const ContactSection = () => {
         </h2>
 
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
-          {/* Lado Esquerdo - Informações de Contato */}
           <div className="space-y-6">
             <h3 className="text-2xl font-medium">{CONTACT_PAGE.SUBTITLE}</h3>
             <p className="text-muted-foreground">{CONTACT_PAGE.PARAGRAPH_1}</p>
@@ -55,3 +54,4 @@ export const ContactSection = () => {
     </section>
   );
 };
+export default ContactSection;

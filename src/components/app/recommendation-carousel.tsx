@@ -37,7 +37,7 @@ export const RecommendationCarousel = () => {
               key={`recommendation-item-${index}`}
               className="flex basis-[86%] items-center gap-4 pb-24 lg:basis-[32%]"
             >
-              <div className="i relative flex h-full w-full flex-col gap-6 bg-white/40 p-8 shadow-lg transition-all hover:scale-105 hover:bg-white dark:bg-black/20 dark:hover:bg-black">
+              <div className="i relative flex h-full w-full flex-col gap-6 bg-white/40 p-8 shadow-lg dark:bg-black/20">
                 <Quote
                   className="absolute -top-10 right-3 h-20 w-20 text-primary opacity-40"
                   strokeWidth={0.5}
@@ -48,8 +48,7 @@ export const RecommendationCarousel = () => {
 
                 <div className="relative flex w-full flex-col items-center gap-1">
                   <p className="mb-4 text-sm opacity-60">
-                    {rec.date}{' '}
-                    <span className="opacity-55">(via Linkedin)</span>
+                    {rec.date} <span className="opacity-55">(Linkedin)</span>
                   </p>
 
                   <p className="text-center text-xl font-medium text-primary">
