@@ -29,5 +29,3 @@ export const RecommendationsSection = () => {
     </section>
   );
 };
-
-export default RecommendationsSection;
