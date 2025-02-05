@@ -50,7 +50,7 @@ export async function sendEmail(
     const response = await mg.messages.create(domain, {
       from: `Contato <no-reply@${domain}>`,
       to: recipient,
-      subject: `Nova mensagem de ${name} - ${domain}`,
+      subject: `Nova mensagem de ${name}`,
       template,
       'h:X-Mailgun-Variables': JSON.stringify({
         name: name,
