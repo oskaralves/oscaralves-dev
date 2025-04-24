@@ -42,7 +42,7 @@ export const getExperiences = (locale: Locale = 'pt-BR'): Experience[] => {
       endDate: LEND.END_DATE,
       logo: '/images/logos/lend.png',
       description: formatDescription(LEND.DESCRIPTION),
-      isVisible: false,
+      isVisible: true,
     },
     {
       company: MERCADO_DIFERENTE.COMPANY,
