@@ -55,7 +55,7 @@ export const SidebarMobile = () => {
         ref={containerRef}
       >
         <motion.div
-          className="absolute inset-0 right-0 h-screen w-full bg-neutral-50 dark:bg-neutral-800"
+          className="absolute inset-0 right-0 h-screen w-full"
           animate={isOpen ? 'open' : 'closed'}
           custom={sidebar}
         />
