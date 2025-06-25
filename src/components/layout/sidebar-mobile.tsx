@@ -56,13 +56,14 @@ export const SidebarMobile = () => {
       >
         <motion.div
           className="absolute inset-0 right-0 h-screen w-full bg-neutral-50 dark:bg-neutral-800"
-          variants={sidebar}
+          animate={isOpen ? 'open' : 'closed'}
+          custom={sidebar}
         />
         <motion.ul
           variants={variants}
           className={cn(
-            'relative flex h-full w-full flex-col gap-3 px-10 py-16',
-            isOpen ? 'overflow-y-auto' : 'overflow-hidden'
+            'relative flex h-full w-full flex-col gap-3 px-10 py-16 transition-colors',
+            isOpen ? 'overflow-y-auto bg-background' : 'overflow-hidden'
           )}
         >
           {navigation.items.map((item, idx) => {
