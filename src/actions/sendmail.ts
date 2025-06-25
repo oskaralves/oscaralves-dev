@@ -11,10 +11,7 @@ const template = 'contact form';
 const secretKey = process.env.CLOUDFLARE_SECRET_KEY;
 
 const mailgun = new Mailgun(formData);
-const mg = mailgun.client({
-  username: 'api',
-  key: apiKey as string,
-});
+const mg = mailgun.client({ username: 'api', key: apiKey as string });
 
 export async function sendEmail(
   data: ContactFormValueType & { captcha: string }
@@ -33,10 +30,7 @@ export async function sendEmail(
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        secret: secretKey,
-        response: captcha,
-      }),
+      body: JSON.stringify({ secret: secretKey, response: captcha }),
     }
   );
 
