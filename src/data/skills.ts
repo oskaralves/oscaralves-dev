@@ -9,7 +9,7 @@ export const skills: Skill[] = [
     level: 92,
   },
   {
-    imageUrl: 'https://cdn.simpleicons.org/css3',
+    imageUrl: 'https://cdn.simpleicons.org/css/1573b7',
     title: 'CSS 3',
     color: '#1573b7',
     segment: 'frontend',
@@ -41,7 +41,7 @@ export const skills: Skill[] = [
     title: 'Next.js',
     color: '#fff',
     segment: 'frontend',
-    level: 95,
+    level: 96,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/angular/DD0031',
@@ -55,7 +55,7 @@ export const skills: Skill[] = [
     title: 'Vue.js',
     color: '#4fc08d',
     segment: 'frontend',
-    level: 67,
+    level: 61,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/astro',
@@ -69,14 +69,14 @@ export const skills: Skill[] = [
     title: 'Node.js',
     color: '#60a04e',
     segment: 'backend',
-    level: 88,
+    level: 90,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/nestjs',
     title: 'Nest.js',
     color: '#e0234e',
     segment: 'backend',
-    level: 87,
+    level: 96,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/php',
@@ -224,7 +224,7 @@ export const skills: Skill[] = [
     title: 'Github Actions',
     color: '#2088ff',
     segment: 'devops',
-    level: 84,
+    level: 87,
   },
   {
     imageUrl: 'svgs/aws.svg',
@@ -259,7 +259,7 @@ export const skills: Skill[] = [
     title: 'React Query',
     color: '#ff4154',
     segment: 'libs',
-    level: 88,
+    level: 90,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/reacttable',
@@ -378,7 +378,7 @@ export const skills: Skill[] = [
     title: 'Storybook',
     color: '#ff4885',
     segment: 'libs',
-    level: 85,
+    level: 87,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/swagger',
@@ -406,13 +406,13 @@ export const skills: Skill[] = [
     title: 'Yarn',
     color: '#2d8ebb',
     segment: 'libs',
-    level: 87,
+    level: 89,
   },
   {
     imageUrl: 'https://cdn.simpleicons.org/pnpm',
     title: 'pnpm',
     color: '#f69221',
     segment: 'libs',
-    level: 72,
+    level: 80,
   },
 ];
