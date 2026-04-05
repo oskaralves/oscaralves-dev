@@ -5,7 +5,7 @@ import { APP_TITLE } from '@/constants';
 import { AppContextProvider } from '@/contexts/app-context';
 import { DictionaryProvider } from '@/contexts/dictionary-context';
 import { LocaleProvider } from '@/contexts/locale-context';
-import { getDictionary } from '@/dictionaries';
+import { DictionaryType, getDictionary } from '@/dictionaries';
 import { Locale } from '@/types/locale';
 import { getLocale } from '@/utils/locale';
 import { Analytics } from '@vercel/analytics/react';
@@ -37,7 +37,7 @@ export default async function RootLayout({
         className={`${montserratSans.className} min-h-screen text-pretty antialiased transition-all`}
       >
         <LocaleProvider initialLocale={locale as Locale}>
-          <DictionaryProvider dictionary={dictionary as any}>
+          <DictionaryProvider dictionary={dictionary as DictionaryType}>
             <ThemeProvider>
               <TooltipProvider>
                 <AppContextProvider

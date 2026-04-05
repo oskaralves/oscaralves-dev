@@ -8,7 +8,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -48,7 +48,11 @@
     "zod": "^3.24.1"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["@parcel/watcher", "sharp", "unrs-resolver"],
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "sharp",
+      "unrs-resolver"
+    ],
     "overrides": {
       "form-data": ">=4.0.4",
       "axios": ">=1.12.0",
@@ -60,7 +64,7 @@
     }
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/eslintrc": "^3.3.5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
