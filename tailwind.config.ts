@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import plugin from 'tailwindcss/plugin';
 import * as tailwindcssAnimate from 'tailwindcss-animate';
 
 export default {
@@ -105,7 +106,7 @@ export default {
   },
   plugins: [
     tailwindcssAnimate,
-    function ({ addUtilities }: any) {
+    plugin(function ({ addUtilities }) {
       addUtilities({
         '.perspective-1000': {
           perspective: '600px',
@@ -117,6 +118,6 @@ export default {
           transform: 'rotateX(45deg)',
         },
       });
-    },
+    }),
   ],
 } satisfies Config;

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, RefObject } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/locale-context';
@@ -30,18 +30,20 @@ const sidebar = {
 };
 
 export const SidebarMobile = () => {
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLElement>(null);
   const pathname = usePathname();
   const { locale } = useLanguage();
   const { height } = useDimensions(containerRef);
   const [isOpen, toggleOpen] = useCycle(false, true);
+  const isOpenRef = useRef(isOpen);
+  isOpenRef.current = isOpen;
   const navigation = getNavigation(locale);
 
   useEffect(() => {
-    if (isOpen) {
+    if (isOpenRef.current) {
       toggleOpen();
     }
-  }, [pathname]);
+  }, [pathname, toggleOpen]);
 
   return (
     <div className="relative h-10 w-10 md:hidden">
@@ -80,7 +82,7 @@ export const SidebarMobile = () => {
   );
 };
 
-const Path = (props: any) => (
+const Path = (props: React.ComponentPropsWithoutRef<typeof motion.path>) => (
   <motion.path
     fill="transparent"
     strokeWidth="2"
@@ -150,7 +152,7 @@ const variants = {
   },
 };
 
-const useDimensions = (ref: any) => {
+const useDimensions = (ref: RefObject<HTMLElement | null>) => {
   const dimensions = useRef({ width: 0, height: 0 });
 
   useEffect(() => {

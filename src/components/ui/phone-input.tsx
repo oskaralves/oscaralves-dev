@@ -61,7 +61,7 @@ const PhoneInput: React.ForwardRefExoticComponent<PhoneInputProps> =
           )}
           inputComponent={InputComponent}
           numberInputProps={{ className: cn('w-full', className) }}
-          onChange={(value) => onChange?.((value as any) || '')}
+          onChange={(value) => onChange?.((value ?? '') as RPNInput.Value)}
           {...props}
         />
       );
