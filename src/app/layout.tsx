@@ -14,7 +14,7 @@ import { ThemeProvider } from '../../theme/ThemeProvider';
 import { getSidebarExtendedAction } from '../actions/sidebarExtendedAction';
 import { Header } from '../components/layout/header';
 import './globals.css';
-import { metadata } from './metadata';
+export { metadata, viewport } from './metadata';
 
 const montserratSans = Montserrat({
   variable: '--font-montserrat-sans',
@@ -67,5 +67,3 @@ export default async function RootLayout({
     </html>
   );
 }
-
-export { metadata };

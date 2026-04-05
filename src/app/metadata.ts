@@ -1,7 +1,11 @@
 import { APP_TITLE } from '@/constants';
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 
 const title = APP_TITLE + ` - Engenheiro de Software`;
+
+export const viewport: Viewport = {
+  themeColor: '#CE2C5A',
+};
 
 export const metadata: Metadata = {
   title,
@@ -29,10 +33,8 @@ export const metadata: Metadata = {
     locale: 'pt_BR',
     type: 'website',
   },
-  themeColor: '#CE2C5A',
   other: {
     'msapplication-TileColor': '#CE2C5A',
-    'theme-color': '#CE2C5A',
     'apple-mobile-web-app-status-bar-style': 'black-translucent',
   },
 };
